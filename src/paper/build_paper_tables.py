@@ -17,6 +17,61 @@ ROLE_LABEL = {'hitter': 'Hitter', 'sp': 'Starting Pitcher', 'rp': 'Relief Pitche
 def load_spec():
     return json.loads(SPEC_PATH.read_text(encoding='utf-8'))
 
+def select_paper_models(metrics):
+    """
+    Select manuscript models using validation data only.
+
+    Candidates: Logistic Regression and Random Forest.
+    XGBoost remains an additional comparison model.
+    """
+    valid = metrics.loc[
+        (metrics["split"] == "valid")
+        & (metrics["model"].isin(["logistic", "rf"]))
+    ].copy()
+
+    valid = valid.sort_values(
+        [
+            "role", "outcome", "task",
+            "accuracy", "balanced_accuracy", "model"
+        ],
+        ascending=[
+            True, True, True,
+            False, False, True
+        ],
+    )
+
+    selected = valid.drop_duplicates(
+        ["role", "outcome", "task"]
+    ).copy()
+
+    if len(selected) != 12:
+        raise RuntimeError(
+            f"Expected 12 selected models, got {len(selected)}"
+        )
+
+    # Existing paper configuration is for verification only.
+    expected = load_spec()
+
+    for row in selected.itertuples(index=False):
+        expected_model = expected[row.role][row.task][row.outcome]
+
+        if row.model != expected_model:
+            raise RuntimeError(
+                f"Paper model mismatch: "
+                f"{row.role}/{row.outcome}/{row.task}: "
+                f"selected={row.model}, expected={expected_model}"
+            )
+
+    selected.to_csv(
+        OUT / "paper_selected_models.csv",
+        index=False,
+    )
+
+    return {
+        (row.role, row.outcome, row.task): row.model
+        for row in selected.itertuples(index=False)
+    }
+
 
 def selected_row(metrics, role, outcome, task, model):
     q = metrics[
@@ -29,38 +84,73 @@ def selected_row(metrics, role, outcome, task, model):
     return q.iloc[0]
 
 
-def paired_bootstrap_ci(pred, role, task, comp_model, war_model, n_boot=10000, seed=42):
-    c = pred[(pred.role == role) & (pred.outcome == 'composite') &
-             (pred.task == task) & (pred.model == comp_model) & (pred.split == 'test')].copy()
-    w = pred[(pred.role == role) & (pred.outcome == 'war') &
-             (pred.task == task) & (pred.model == war_model) & (pred.split == 'test')].copy()
-    keys = ['player_key', 'fa_year']
-    c = c.sort_values(keys).reset_index(drop=True)
-    w = w.sort_values(keys).reset_index(drop=True)
-    z = c[keys + ['y_true', 'y_pred']].merge(
-        w[keys + ['y_true', 'y_pred']], on=keys, suffixes=('_composite', '_war'), validate='one_to_one'
+def paired_bootstrap_stats(
+    pred, role, task, comp_model, war_model,
+    n_boot=10000, seed=42
+):
+    c = pred[
+        (pred.role == role)
+        & (pred.outcome == "composite")
+        & (pred.task == task)
+        & (pred.model == comp_model)
+        & (pred.split == "test")
+    ].copy()
+
+    w = pred[
+        (pred.role == role)
+        & (pred.outcome == "war")
+        & (pred.task == task)
+        & (pred.model == war_model)
+        & (pred.split == "test")
+    ].copy()
+
+    keys = ["player_key", "fa_year"]
+
+    z = c[keys + ["y_true", "y_pred"]].merge(
+        w[keys + ["y_true", "y_pred"]],
+        on=keys,
+        suffixes=("_composite", "_war"),
+        validate="one_to_one",
     ).sort_values(keys).reset_index(drop=True)
-    c_ok = (z.y_true_composite.to_numpy() == z.y_pred_composite.to_numpy()).astype(float)
-    w_ok = (z.y_true_war.to_numpy() == z.y_pred_war.to_numpy()).astype(float)
-    rs = np.random.RandomState(seed)  # reproduces manuscript percentile CIs
+
+    c_ok = (
+        z["y_true_composite"].to_numpy()
+        == z["y_pred_composite"].to_numpy()
+    ).astype(float)
+
+    w_ok = (
+        z["y_true_war"].to_numpy()
+        == z["y_pred_war"].to_numpy()
+    ).astype(float)
+
+    # Keep the same RNG as the existing manuscript pipeline.
+    rng = np.random.RandomState(seed)
+
     n = len(z)
     diffs = np.empty(n_boot, dtype=float)
+
     for i in range(n_boot):
-        idx = rs.choice(n, n, replace=True)
+        idx = rng.choice(n, n, replace=True)
         diffs[i] = c_ok[idx].mean() - w_ok[idx].mean()
-    return float(np.quantile(diffs, .025)), float(np.quantile(diffs, .975))
+
+    return {
+        "mean": float(diffs.mean()),
+        "se": float(diffs.std(ddof=1)),
+        "ci_low": float(np.quantile(diffs, 0.025)),
+        "ci_high": float(np.quantile(diffs, 0.975)),
+    }
 
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     metrics = pd.read_csv(METRICS)
     pred = pd.read_csv(PREDICTIONS)
-    spec = load_spec()
+    selected = select_paper_models(metrics)
 
     # Table 4: selected three-class Composite models
     rows = []
     for role in ['hitter', 'sp', 'rp']:
-        model = spec[role]['3class']['composite']
+        model = selected[(role, "composite", "3class")]
         r = selected_row(metrics, role, 'composite', '3class', model)
         rows.append({
             'Role': ROLE_LABEL[role], 'Selected model': model,
@@ -72,7 +162,7 @@ def main():
     # Table 5: selected binary Composite models
     rows = []
     for role in ['hitter', 'sp', 'rp']:
-        model = spec[role]['2class']['composite']
+        model = selected[(role, "composite", "2class")]
         r = selected_row(metrics, role, 'composite', '2class', model)
         rows.append({
             'Role': ROLE_LABEL[role], 'Selected model': model,
@@ -86,11 +176,11 @@ def main():
     rows = []
     for task in ['2class', '3class']:
         for role in ['hitter', 'sp', 'rp']:
-            cm = spec[role][task]['composite']
-            wm = spec[role][task]['war']
+            cm = selected[(role, "composite", task)]
+            wm = selected[(role, "war", task)]
             cr = selected_row(metrics, role, 'composite', task, cm)
             wr = selected_row(metrics, role, 'war', task, wm)
-            lo, hi = paired_bootstrap_ci(pred, role, task, cm, wm)
+            boot = paired_bootstrap_stats(pred, role, task, cm, wm)
             rows.append({
                 'Role': ROLE_LABEL[role], 'Task': task,
                 'Composite model': cm, 'WAR-only model': wm,
@@ -99,7 +189,14 @@ def main():
                 # The manuscript reports the difference from the displayed 3-decimal accuracies.
                 'Accuracy Difference': round(float(cr.accuracy), 3) - round(float(wr.accuracy), 3),
                 'Accuracy Difference Raw': float(cr.accuracy - wr.accuracy),
-                'CI Low 95%': round(lo, 3), 'CI High 95%': round(hi, 3),
+                'Bootstrap Mean Difference': round(boot["mean"], 3),
+                'Bootstrap SE': round(boot["se"], 3),
+                'CI Low 95%': round(boot["ci_low"], 3),
+                'CI High 95%': round(boot["ci_high"], 3),
+                "Bootstrap Mean Difference": round(boot["mean"], 3),
+                "Bootstrap SE": round(boot["se"], 3),
+                "CI Low 95%": round(boot["ci_low"], 3),
+                "CI High 95%": round(boot["ci_high"], 3),
             })
     pd.DataFrame(rows).to_csv(OUT/'table6_composite_vs_war_bootstrap.csv', index=False)
 
