@@ -2,7 +2,7 @@ role,outcome,task,split,n,majority_class,majority_accuracy
 hitter,composite,2class,test,120,0,0.675
 hitter,composite,3class,test,120,1,0.36666666666666664
 hitter,war,2class,test,120,0,0.5666666666666667
-hitter,war,3class,test,120,1,0.375
+hitter,war,3class,test,120,1,0.38333333333333336
 hitter,composite,2class,train,328,0,0.600609756097561
 hitter,composite,3class,train,328,2,0.3353658536585366
 hitter,war,2class,train,328,0,0.5975609756097561
@@ -10,7 +10,7 @@ hitter,war,3class,train,328,1,0.3445121951219512
 hitter,composite,2class,valid,86,0,0.6162790697674418
 hitter,composite,3class,valid,86,1,0.4418604651162791
 hitter,war,2class,valid,86,0,0.5465116279069767
-hitter,war,3class,valid,86,2,0.3953488372093023
+hitter,war,3class,valid,86,2,0.38372093023255816
 sp,composite,2class,test,65,0,0.8307692307692308
 sp,composite,3class,test,65,0,0.4307692307692308
 sp,war,2class,test,65,0,0.7692307692307693

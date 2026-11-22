@@ -117,9 +117,35 @@ def evaluate_one(role, cfg, df, weight, baseline_labels):
         valid[features]
     )[:, 1]
 
-    threshold = select_threshold(
-        valid["y"], valid_prob
-    )
+
+    import warnings
+
+    # Validation Set의 클래스 구성 확인
+    if valid["y"].nunique() < 2:
+        print(
+            f"[WARNING] {role} | WAR weight={weight:.1f} | "
+            f"Validation N={len(valid)} | "
+            f"High N={int(valid['y'].sum())} | "
+            "Only one target class is present."
+        )
+
+        # 이미 원인을 명시했으므로 반복적인 sklearn 경고만 방지
+        with warnings.catch_warnings():
+            warnings.filterwarnings(
+                "ignore",
+                message=r"y_pred contains classes not in y_true",
+                category=UserWarning,
+            )
+
+            threshold = select_threshold(
+                valid["y"], valid_prob
+            )
+    else:
+        threshold = select_threshold(
+            valid["y"], valid_prob
+        )
+
+
 
     valid_pred = (valid_prob >= threshold).astype(int)
 

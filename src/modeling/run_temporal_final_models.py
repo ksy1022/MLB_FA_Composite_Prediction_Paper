@@ -110,7 +110,10 @@ def fit_outcomes(df: pd.DataFrame, cfg: dict) -> tuple[pd.DataFrame, dict]:
             f"{short}_std": std,
         })
 
-    out["composite_score"] = out["z_war"] + out["z_playtime"]
+    out["composite_score"] = (
+    0.5 * out["z_war"]
+    + 0.5 * out["z_playtime"]
+    )
     for outcome, score in (("composite", "composite_score"), ("war", cfg["war"])):
         train_score = out.loc[train, score]
         cut2 = float(train_score.quantile(1 - cfg["top"]))

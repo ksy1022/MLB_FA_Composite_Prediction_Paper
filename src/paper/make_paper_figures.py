@@ -51,9 +51,16 @@ def figure4():
         baseline=sub0.y_true.mean()
         for model in spec[role]:
             sub=sub0[sub0.model==model]
-            p,r,_=precision_recall_curve(sub.y_true,sub.probability_1)
-            ap=np.trapz(p[::-1],r[::-1])
-            ax.plot(r,p,label=f'{model.title()}')
+            p, r, _ = precision_recall_curve(
+                sub.y_true,
+                sub.probability_1
+            )
+
+            ax.plot(
+                r,
+                p,
+                label=f"{model.title()}"
+            )
         ax.axhline(baseline,ls='--',lw=1,label=f'Baseline ({baseline:.3f})')
         ax.set_title(labels[role]); ax.set_xlabel('Recall'); ax.set_xlim(0,1); ax.set_ylim(0,1.05)
     axes[0].set_ylabel('Precision'); axes[0].legend(fontsize=8)

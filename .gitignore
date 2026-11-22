@@ -8,3 +8,14 @@ Thumbs.db
 outputs/generated/
 *.egg-info/
 .env
+# Temporary reproduction checks
+outputs/rebuild_check/
+
+# Python cache and local environments
+*.pycoutputs/optimized_2class/
+outputs/fixed_tertile_2class/
+outputs/cutoff_sensitivity_203040/
+outputs/gmm3_structure_validation/
+outputs/composite_distribution_structure/
+legacy_related/
+outputs/optimized_2class/
