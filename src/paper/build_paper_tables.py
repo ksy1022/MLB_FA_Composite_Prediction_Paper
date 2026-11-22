@@ -4,6 +4,9 @@ import json
 from pathlib import Path
 import numpy as np
 import pandas as pd
+from src.paper.composite_vs_war_additional_analysis_paper import (
+    bootstrap_accuracy_uncertainty,
+)
 
 ROOT = Path(__file__).resolve().parents[2]
 METRICS = ROOT / 'outputs' / 'temporal_accuracy_final' / 'temporal_metrics.csv'
@@ -146,6 +149,7 @@ def main():
     metrics = pd.read_csv(METRICS)
     pred = pd.read_csv(PREDICTIONS)
     selected = select_paper_models(metrics)
+    bootstrap_table = bootstrap_accuracy_uncertainty()
 
     # Table 4: selected three-class Composite models
     rows = []
@@ -180,7 +184,25 @@ def main():
             wm = selected[(role, "war", task)]
             cr = selected_row(metrics, role, 'composite', task, cm)
             wr = selected_row(metrics, role, 'war', task, wm)
-            boot = paired_bootstrap_stats(pred, role, task, cm, wm)
+            matched = bootstrap_table.loc[
+                (bootstrap_table["Role"] == ROLE_LABEL[role])
+                & (bootstrap_table["Task"] == task)
+            ]
+
+            if len(matched) != 1:
+                raise ValueError(
+                    f"Invalid bootstrap result: {role}, {task}"
+                )
+
+            boot = matched.iloc[0]
+
+            if (
+                boot["Composite_Model"] != cm
+                or boot["WAR_Model"] != wm
+            ):
+                raise ValueError(
+                    f"Bootstrap model mismatch: {role}, {task}"
+                )
             rows.append({
                 'Role': ROLE_LABEL[role], 'Task': task,
                 'Composite model': cm, 'WAR-only model': wm,
@@ -189,14 +211,32 @@ def main():
                 # The manuscript reports the difference from the displayed 3-decimal accuracies.
                 'Accuracy Difference': round(float(cr.accuracy), 3) - round(float(wr.accuracy), 3),
                 'Accuracy Difference Raw': float(cr.accuracy - wr.accuracy),
-                'Bootstrap Mean Difference': round(boot["mean"], 3),
-                'Bootstrap SE': round(boot["se"], 3),
-                'CI Low 95%': round(boot["ci_low"], 3),
-                'CI High 95%': round(boot["ci_high"], 3),
-                "Bootstrap Mean Difference": round(boot["mean"], 3),
-                "Bootstrap SE": round(boot["se"], 3),
-                "CI Low 95%": round(boot["ci_low"], 3),
-                "CI High 95%": round(boot["ci_high"], 3),
+                "Bootstrap Mean Difference": round(
+                    float(boot["Bootstrap_Mean_Difference"]), 3
+                ),
+                "Bootstrap SE": round(
+                    float(boot["Bootstrap_SE"]), 3
+                ),
+                "CI Low 95%": round(
+                    float(boot["CI_2.5%"]), 3
+                ),
+                "CI High 95%": round(
+                    float(boot["CI_97.5%"]), 3
+                ),
+
+                "Bootstrap Mean Difference": round(
+                    float(boot["Bootstrap_Mean_Difference"]), 3
+                ),
+                "Bootstrap SE": round(
+                    float(boot["Bootstrap_SE"]), 3
+                ),
+                "CI Low 95%": round(
+                    float(boot["CI_2.5%"]), 3
+                ),
+                "CI High 95%": round(
+                    float(boot["CI_97.5%"]), 3
+                ),
+
             })
     pd.DataFrame(rows).to_csv(OUT/'table6_composite_vs_war_bootstrap.csv', index=False)
 

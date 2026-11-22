@@ -60,10 +60,13 @@ def main() -> None:
     # 9. Extended weight-grid evaluation
     run("src.paper.weight_grid_sensitivity_2class")
 
-    # 10. Paper figures
+    # 10. weight_grid_2class
+    run("src.paper.validate_weight_grid_2class")
+
+    # 11. Paper figures
     run("src.paper.make_paper_figures")
 
-    # 11. Reproduction validation
+    # 12. Reproduction validation
     run("src.paper.validate_reproduction")
 
     print("\nPaper reproduction pipeline completed.")

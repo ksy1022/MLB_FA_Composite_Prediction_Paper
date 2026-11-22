@@ -117,22 +117,25 @@ def display_feature_name(name: str) -> str:
 # Model fitting
 # ---------------------------------------------------------------------
 
+
 def fit_role_models(role: str) -> tuple[Pipeline, Pipeline]:
     """
-    Fit the specified 2-class Logistic Regression and
-    3-class Random Forest pipelines for one player role.
+    Fit the paper-selected binary model and
+    the three-class Random Forest model.
+
+    Hitter 2-class: Logistic Regression
+    SP 2-class: Logistic Regression
+    RP 2-class: Random Forest
+    All 3-class: Random Forest
     """
     cfg = ROLE_CONFIG[role]
 
     cohort_path = DATA / f"{role}_cohort_v2.csv"
 
     if not cohort_path.exists():
-        raise FileNotFoundError(
-            f"Cohort file not found: {cohort_path.resolve()}"
-        )
+        raise FileNotFoundError(cohort_path)
 
     frame = pd.read_csv(cohort_path)
-
     frame["split"] = temporal_split(frame)
     frame = frame[frame["split"].notna()].copy()
 
@@ -142,33 +145,37 @@ def fit_role_models(role: str) -> tuple[Pipeline, Pipeline]:
     features = list(cfg["features"])
 
     if train.empty:
-        raise ValueError(f"No training observations found for role: {role}")
+        raise ValueError(f"Empty training set: {role}")
 
-    # 2-class Logistic Regression
+    # 1. Paper-selected binary model
     target_2class = f"{OUTCOME}_2class"
 
-    logistic_estimator = models(
+    binary_model_name = (
+        "rf" if role == "rp" else "logistic"
+    )
+
+    binary_estimator = models(
         "2class",
         train[target_2class],
-    )["logistic"]
+    )[binary_model_name]
 
-    logistic_pipeline = Pipeline([
+    binary_pipeline = Pipeline([
         (
             "preprocessor",
             make_preprocessor(train[features]),
         ),
         (
             "model",
-            clone(logistic_estimator),
+            clone(binary_estimator),
         ),
     ])
 
-    logistic_pipeline.fit(
+    binary_pipeline.fit(
         train[features],
         train[target_2class],
     )
 
-    # 3-class Random Forest
+    # 2. Paper-selected three-class model
     target_3class = f"{OUTCOME}_3class"
 
     rf_estimator = models(
@@ -192,7 +199,8 @@ def fit_role_models(role: str) -> tuple[Pipeline, Pipeline]:
         train[target_3class],
     )
 
-    return logistic_pipeline, rf_pipeline
+    return binary_pipeline, rf_pipeline
+
 
 
 # ---------------------------------------------------------------------
@@ -247,6 +255,7 @@ def extract_logistic_coefficients(
 def extract_rf_importance(
     pipeline: Pipeline,
     role: str,
+    task: str = "3class",
 ) -> pd.DataFrame:
     """Extract impurity-based importance from the fitted multiclass RF."""
     preprocessor = pipeline.named_steps["preprocessor"]
@@ -268,7 +277,7 @@ def extract_rf_importance(
 
     result = pd.DataFrame({
         "role": role,
-        "task": "3class",
+        "task": task,
         "model": "rf",
         "feature": feature_names,
         "value": importances,
@@ -584,7 +593,7 @@ def save_pitcher_figure(
 
     plot_logistic(
         axes[0, 0],
-        results["sp"]["logistic"],
+        results["sp"]["binary"],
         "(a)",
         "Starting Pitcher: 2-Class Logistic Regression",
     )
@@ -596,11 +605,11 @@ def save_pitcher_figure(
         "Starting Pitcher: 3-Class Random Forest",
     )
 
-    plot_logistic(
+    plot_rf(
         axes[1, 0],
-        results["rp"]["logistic"],
+        results["rp"]["binary"],
         "(c)",
-        "Relief Pitcher: 2-Class Logistic Regression",
+        "Relief Pitcher: 2-Class Random Forest",
     )
 
     plot_rf(
@@ -678,107 +687,119 @@ def save_pitcher_figure(
 # Main execution
 # ---------------------------------------------------------------------
 
+
 def run() -> None:
-    """Fit models, export contribution tables, and create Figures 5 and 6."""
+    """Generate model contributions aligned with paper models."""
     apply_publication_style()
 
-    OUTPUT.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
+    OUTPUT.mkdir(parents=True, exist_ok=True)
 
     print(f"Project root: {PROJECT_ROOT.resolve()}")
     print(f"Data directory: {Path(DATA).resolve()}")
     print(f"Output directory: {OUTPUT.resolve()}")
 
-    role_results: dict[str, dict[str, pd.DataFrame]] = {}
-    all_results: list[pd.DataFrame] = []
+    role_results = {}
+    all_results = []
 
     for role in ("hitter", "sp", "rp"):
-        print(f"\nFitting contribution models for: {ROLE_LABELS[role]}")
-
-        logistic_pipeline, rf_pipeline = fit_role_models(role)
-
-        logistic = extract_logistic_coefficients(
-            logistic_pipeline,
-            role,
+        print(
+            f"\nFitting contribution models for: "
+            f"{ROLE_LABELS[role]}"
         )
 
+        binary_pipeline, rf_pipeline = fit_role_models(role)
+
+        # Binary model: RP uses RF, others use Logistic.
+        if role == "rp":
+            binary_model_name = "rf"
+
+            binary = extract_rf_importance(
+                binary_pipeline,
+                role,
+                task="2class",
+            )
+
+            binary_filename = (
+                f"{role}_2class_rf_importance.csv"
+            )
+        else:
+            binary_model_name = "logistic"
+
+            binary = extract_logistic_coefficients(
+                binary_pipeline,
+                role,
+            )
+
+            binary_filename = (
+                f"{role}_2class_logistic_coefficients.csv"
+            )
+
+        # Three-class Random Forest
         rf = extract_rf_importance(
             rf_pipeline,
             role,
+            task="3class",
         )
 
         role_results[role] = {
-            "logistic": logistic,
+            "binary": binary,
             "rf": rf,
         }
 
-        all_results.extend([
-            logistic,
-            rf,
-        ])
+        all_results.extend([binary, rf])
 
-        logistic_csv = (
-            OUTPUT / f"{role}_2class_logistic_coefficients.csv"
-        )
-
-        rf_csv = (
-            OUTPUT / f"{role}_3class_rf_importance.csv"
-        )
-
-        logistic.to_csv(
-            logistic_csv,
+        binary.to_csv(
+            OUTPUT / binary_filename,
             index=False,
             encoding="utf-8-sig",
         )
 
         rf.to_csv(
-            rf_csv,
+            OUTPUT / f"{role}_3class_rf_importance.csv",
             index=False,
             encoding="utf-8-sig",
         )
 
-    combined_csv = OUTPUT / "all_model_contributions.csv"
+        print(
+            f"\n[{ROLE_LABELS[role]} | "
+            f"2-class {binary_model_name}]"
+        )
+        print(
+            binary.head(TOP_N)[["feature", "value"]]
+            .to_string(index=False)
+        )
 
+        print(
+            f"\n[{ROLE_LABELS[role]} | "
+            f"3-class RF]"
+        )
+        print(
+            rf.head(TOP_N)[["feature", "value"]]
+            .to_string(index=False)
+        )
+
+    # Combined contribution table
     pd.concat(
         all_results,
         ignore_index=True,
     ).to_csv(
-        combined_csv,
+        OUTPUT / "all_model_contributions.csv",
         index=False,
         encoding="utf-8-sig",
     )
 
     # Figure 5: Hitter
     save_hitter_figure(
-        role_results["hitter"]["logistic"],
+        role_results["hitter"]["binary"],
         role_results["hitter"]["rf"],
     )
 
-    # Figure 6: Starting and relief pitchers
+    # Figure 6: Pitchers
     save_pitcher_figure(role_results)
-
-    # Print top contributions
-    for role in ("hitter", "sp", "rp"):
-        print(f"\n[{ROLE_LABELS[role]} | 2-class Logistic]")
-
-        print(
-            role_results[role]["logistic"]
-            .head(TOP_N)[["feature", "value"]]
-            .to_string(index=False)
-        )
-
-        print(f"\n[{ROLE_LABELS[role]} | 3-class Random Forest]")
-
-        print(
-            role_results[role]["rf"]
-            .head(TOP_N)[["feature", "value"]]
-            .to_string(index=False)
-        )
 
     print("\nAll outputs were created successfully.")
     print(f"Output directory: {OUTPUT.resolve()}")
+
 
 
 if __name__ == "__main__":
