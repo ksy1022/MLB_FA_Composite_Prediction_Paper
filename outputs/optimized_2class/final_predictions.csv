@@ -1,0 +1,957 @@
+﻿contract_row_id,player_key,fa_year,player,role,role_label,outcome,task,model,selected_top_ratio,split,threshold,y_true,y_pred,probability_high
+4,jonesad01,2019,Adam Jones,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.4019371137770068
+13,gonzaad01,2018,Adrián González*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.13557168781271411
+19,polloaj01,2019,AJ Pollock,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.7075038428890036
+24,escobal02,2018,Alcides Escobar,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.404903099855954
+28,avilaal01,2018,Alex Avila*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.08240623858104332
+41,mccutan01,2019,Andrew McCutchen,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.7177969098700899
+48,cabreas01,2019,Asdrúbal Cabrera#,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.43894130778726853
+52,jacksau01,2018,Austin Jackson,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.25652001097226323
+55,garciav01,2019,Avisaíl García,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,0,0.49225583767401593
+61,hamilbi02,2019,Billy Hamilton,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.5438559525258465
+64,millebr02,2019,Brad Miller*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.15155478382809578
+76,doziebr01,2019,Brian Dozier,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,1,0.8060428739645785
+78,mccanbr01,2019,Brian McCann*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.14684772277548516
+83,harpebr03,2019,Bryce Harper*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.9913738640774732
+84,josepca01,2019,Caleb Joseph,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.06552800670328376
+85,maybica01,2018,Cameron Maybin,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.3279458533925116
+91,gomezca01,2018,Carlos Gómez,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.148985549715745
+92,gonzaca01,2018,Carlos González*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.38917748780100675
+96,santaca01,2018,Carlos Santana#,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.9061790117419436
+107,utleych01,2018,Chase Utley*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.0603882997101604
+114,herrmch01,2019,Chris Herrmann*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.06837527321501129
+117,iannech01,2018,Chris Iannetta,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.07037064279103279
+118,owingch01,2019,Chris Owings,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.3933097435752297
+120,stewach01,2018,Chris Stewart,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.04392938192137636
+136,spangco01,2019,Cory Spangenberg*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.17536063265827256
+140,grandcu01,2018,Curtis Granderson*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.24710748255817844
+143,descada01,2019,Daniel Descalso*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.12171429847570006
+145,murphda08,2019,Daniel Murphy*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,1,0.8097325568392265
+168,lemahdj01,2019,DJ LeMahieu,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.9574158471375026
+174,nunezed02,2018,Eduardo Núñez,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.6384231082823261
+186,hosmeer01,2018,Eric Hosmer*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,1,0.9871455964520137
+191,cervefr01,2019,Francisco Cervelli,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.20884039248380243
+198,galvifr01,2019,Freddy Galvis#,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,0,0.6216311818030633
+218,kendrho01,2018,Howie Kendrick,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.2804233878079032
+224,kinslia01,2019,Ian Kinsler,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.45223587213192495
+227,suzukic01,2018,Ichiro Suzuki*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.008819703826289242
+237,mccanja02,2019,James McCann,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.20466803344856346
+240,dysonja01,2018,Jarrod Dyson*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.5662617514168614
+251,bruceja01,2018,Jay Bruce*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.6546316284385247
+252,martijd02,2018,J.D. Martinez,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.9553386591100332
+254,lowrije01,2019,Jed Lowrie#,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.4737430661402532
+261,mathije01,2019,Jeff Mathis,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.022466789829243695
+266,panikjo01,2019,Joe Panik*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.6761112549856957
+271,jayjo02,2018,Jon Jay*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.1652252837084714
+272,jayjo02,2019,Jon Jay*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.20129495954400647
+273,lucrojo01,2018,Jonathan Lucroy,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.5544340948460297
+274,lucrojo01,2019,Jonathan Lucroy,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.3119553007624143
+275,schoojo01,2019,Jonathan Schoop,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.9265416347179316
+282,mercejo03,2019,Jordy Mercer,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.3380086450779505
+285,bautijo02,2018,José Bautista,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.07006382903574733
+293,reyesjo01,2018,José Reyes#,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.1510186403530874
+294,donaljo02,2019,Josh Donaldson,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.9148392805450212
+297,harrijo05,2019,Josh Harrison,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.500095470805346
+308,bourju01,2019,Justin Bour*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.27686873376839655
+336,suzukku01,2019,Kurt Suzuki,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.4469919615725795
+341,martile01,2018,Leonys Martín*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.1606084136762666
+342,morrilo01,2018,Logan Morrison*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.5668231823687857
+343,chiselo01,2019,Lonnie Chisenhall*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.40318831955505535
+344,cainlo01,2018,Lorenzo Cain,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.9736548722208127
+345,dudalu01,2018,Lucas Duda*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.2011211188397847
+355,machama01,2019,Manny Machado,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.9997049978583599
+372,maldoma01,2019,Martín Maldonado,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.16401578922283389
+374,gonzama01,2019,Marwin González#,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,1,0.7930457900245241
+376,adamsma01,2018,Matt Adams*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.24327440336942882
+377,adamsma01,2019,Matt Adams*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.24599350086146607
+391,brantmi02,2019,Michael Brantley*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.7996050373887842
+399,moustmi01,2018,Mike Moustakas*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.8029421024725164
+400,moustmi01,2019,Mike Moustakas*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.7661770253007736
+408,morelmi01,2018,Mitch Moreland*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.4655950492159632
+416,walkene01,2018,Neil Walker#,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.5550511565711074
+417,walkene01,2019,Neil Walker#,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.20418760660567203
+420,cruzne02,2019,Nelson Cruz,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.7861642235981057
+425,hundlni01,2018,Nick Hundley,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.11629224335877815
+454,riverre01,2018,René Rivera,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.026531778731359448
+458,grossro01,2019,Robbie Grossman#,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,0,0.31978115848744704
+462,chiriro01,2019,Robinson Chirinos,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.11591682249426312
+472,flahery01,2018,Ryan Flaherty*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.06382992374879523
+496,beckhti01,2019,Tim Beckham,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.2218297890259081
+497,frazito01,2018,Todd Frazier,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.7808947186561652
+506,tulowtr01,2019,Troy Tulowitzki,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.2785462223141223
+512,castiwe01,2018,Welington Castillo,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.45632294164403164
+518,florewi01,2019,Wilmer Flores,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.7070229104344067
+522,ramoswi01,2019,Wilson Ramos,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.7193256273075908
+526,grandya01,2019,Yasmani Grandal#,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,1,1,0.8684303876114651
+530,alonsyo01,2018,Yonder Alonso*,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,0,0.5939777040263355
+533,cozarza01,2018,Zack Cozart,hitter,Hitter,composite,2class,logistic,0.2,valid,0.7700000000000002,0,1,0.8604217426852966
+1,almonab01,2021,Abraham Almonte#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.02768636835794859
+2,duvalad01,2021,Adam Duvall,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,0,0.12288353238337625
+3,eatonad02,2021,Adam Eaton*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.3373753179358048
+12,hechaad01,2020,Adeiny Hechavarría,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.21022733778378563
+20,almoral01,2021,Albert Almora,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.27391039570025266
+22,pujolal01,2021,Albert Pujols,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.03039029382058865
+29,avilaal01,2020,Alex Avila*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.043197370263092
+30,avilaal01,2021,Alex Avila*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.012834392352000804
+34,gordoal01,2020,Alex Gordon*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.1030779478810676
+38,simmoan01,2021,Andrelton Simmons,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,1,0.8425613981061204
+44,rendoan01,2020,Anthony Rendon,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,1,0.9995910661805301
+49,cabreas01,2020,Asdrúbal Cabrera#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.2311792771963282
+50,cabreas01,2021,Asdrúbal Cabrera#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.11042077634721062
+53,rominau01,2020,Austin Romine,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.16396430967280787
+54,rominau01,2021,Austin Romine,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.08990093477578248
+56,garciav01,2020,Avisaíl García,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.7352792149610808
+65,millebr02,2020,Brad Miller*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.1212408038602226
+66,millebr02,2021,Brad Miller*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.11885356810027636
+74,gardnbr01,2020,Brett Gardner*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.7579865799225529
+75,gardnbr01,2021,Brett Gardner*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.16490434356081374
+79,ogradbr01,2021,Brian O'Grady*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.10939389777562085
+82,holtbr01,2020,Brock Holt*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.18335640264128636
+86,maybica01,2020,Cameron Maybin,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.13050282806094615
+97,santaca01,2021,Carlos Santana#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,0,0.5106737286812499
+101,hernace02,2020,César Hernández#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,0,0.7317164849518033
+102,hernace02,2021,César Hernández#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.5485034852582698
+103,trompch01,2021,Chadwick Tromp,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.10990763183911233
+121,croncj01,2020,C.J. Cron,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,0,0.48935308155280305
+133,dickeco01,2020,Corey Dickerson*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.700189807433707
+138,casalcu01,2021,Curt Casali,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.10782179419379535
+147,roberda10,2021,Daniel Robertson,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.2432351413809868
+148,santada01,2021,Danny Santana#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.050801115560891244
+149,dahlda01,2021,David Dahl*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.18541363907682185
+163,gregodi01,2020,Didi Gregorius*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,1,0.932482118500191
+164,gregodi01,2021,Didi Gregorius*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,1,0.8433628409126087
+169,lemahdj01,2021,DJ LeMahieu,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,1,0.9698253320924701
+170,santado01,2020,Domingo Santana,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.24748238233181052
+172,garnedu01,2020,Dustin Garneau,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.13822913356976008
+173,rosared01,2021,Eddie Rosario*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,1,0.8101416492315877
+176,encared01,2020,Edwin Encarnación,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.41671819618404426
+187,sogarer01,2020,Eric Sogard*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.20096577988617295
+188,thameer01,2020,Eric Thames*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.07871611494753039
+192,cervefr01,2020,Francisco Cervelli,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.11193286144079484
+199,galvifr01,2021,Freddy Galvis#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.30098830902765794
+201,springe01,2021,George Springer,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,1,0.9748431625554725
+212,heredgu01,2020,Guillermo Heredia,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.2826091025335017
+219,kendrho01,2020,Howie Kendrick,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.23288686588532112
+220,pencehu01,2020,Hunter Pence,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.03553676446483294
+221,renfrhu01,2021,Hunter Renfroe,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,0,0.2465715181667433
+230,bradlja02,2021,Jackie Bradley Jr.*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.599218306208971
+233,lambja01,2020,Jake Lamb*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.1608027319408497
+234,marisja01,2021,Jake Marisnick,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.10744600938629793
+238,mccanja02,2021,James McCann,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.3979011850021471
+241,dysonja01,2020,Jarrod Dyson*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.13791830380857115
+242,dysonja01,2021,Jarrod Dyson*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.039260558733949215
+247,castrja01,2020,Jason Castro*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.07100887954003668
+248,castrja01,2021,Jason Castro*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.018329858242008015
+255,gyorkje01,2020,Jedd Gyorko,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.18266214693352278
+265,pederjo01,2021,Joc Pederson*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.4756912715103857
+276,schoojo01,2020,Jonathan Schoop,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,1,0.7977865013878321
+277,schoojo01,2021,Jonathan Schoop,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.5229811945542168
+278,villajo01,2021,Jonathan Villar#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.36328695593200333
+283,abreujo02,2020,José Abreu,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,1,0.8787795823231943
+286,iglesjo01,2020,Jose Iglesias,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.6052558145657653
+287,iglesjo01,2021,Jose Iglesias,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.5699229493361544
+291,perazjo01,2020,José Peraza,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.6285713097772448
+295,donaljo02,2020,Josh Donaldson,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,1,0.865965209307616
+302,realmjt01,2021,J.T. Realmuto,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,1,0.9695501605154146
+307,profaju01,2021,Jurickson Profar#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,0,0.7267448122251021
+314,smoakju01,2020,Justin Smoak#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.316300727054876
+317,turneju01,2021,Justin Turner,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,1,0.8217373729243765
+328,pillake01,2020,Kevin Pillar,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.5814219898418342
+329,pillake01,2021,Kevin Pillar,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.37093946168344655
+330,plaweke01,2020,Kevin Plawecki,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.28004339239004944
+332,calhoko01,2020,Kole Calhoun*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.33370380506831504
+333,wongko01,2021,Kolten Wong*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,1,0.8684346007179755
+337,suzukku01,2021,Kurt Suzuki,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.13623498170432424
+338,schwaky01,2021,Kyle Schwarber*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,0,0.460355710597082
+347,mailelu01,2020,Luke Maile,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.09198514706427052
+348,mailelu01,2021,Luke Maile,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.08502254972950878
+353,francma02,2020,Maikel Franco,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.5675778267757242
+354,francma02,2021,Maikel Franco,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.4653782827307457
+356,ozunama01,2020,Marcell Ozuna,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,1,0.944024301436094
+357,ozunama01,2021,Marcell Ozuna,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,1,0.8973498608695084
+358,hernama02,2020,Marco Hernández*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.17624023248922827
+360,semiema01,2021,Marcus Semien,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,1,0.9487042255228715
+373,maldoma01,2020,Martín Maldonado,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.17990884234133955
+375,gonzama01,2021,Marwin González#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.2583449810330029
+378,duffyma01,2021,Matt Duffy,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.3943222139728488
+382,joycema01,2020,Matt Joyce*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.06738657126486546
+386,wietema01,2020,Matt Wieters#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.06925594639672372
+389,taylomi02,2021,Michael A. Taylor,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,0,0.055222564520781996
+392,brantmi02,2021,Michael Brantley*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,1,0.903826435734409
+401,moustmi01,2020,Mike Moustakas*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,1,0.9082134931435235
+406,zuninmi01,2021,Mike Zunino,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.043037037077471196
+409,morelmi01,2020,Mitch Moreland*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.21339259857011206
+410,morelmi01,2021,Mitch Moreland*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.13047164571306386
+421,cruzne02,2021,Nelson Cruz,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.3942741240176291
+422,casteni01,2020,Nick Castellanos,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,1,0.9014970258436341
+427,markani01,2020,Nick Markakis*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.2528617412828358
+431,mazarno01,2021,Nomar Mazara*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.326856898652079
+455,riverre01,2021,René Rivera,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.002386962047933596
+459,grossro01,2021,Robbie Grossman#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,0,0.39856960370105765
+463,chiriro01,2020,Robinson Chirinos,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.1690731658942469
+478,zimmery01,2020,Ryan Zimmerman,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.16421502457564757
+479,zimmery01,2021,Ryan Zimmerman,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.09786753318863516
+480,healyry01,2020,Ryon Healy,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.2908328964015218
+483,heinesc01,2021,Scott Heineman,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.12072234942774074
+489,castrst01,2020,Starlin Castro,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.690847685585203
+495,vogtst01,2020,Stephen Vogt*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.07113289421421579
+498,frazito01,2020,Todd Frazier,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.3927525555000993
+499,lasteto01,2021,Tommy La Stella*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.5807594212620361
+502,darnatr01,2020,Travis d'Arnaud,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.3234676624072048
+504,shawtr01,2020,Travis Shaw*,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.32576892479507435
+509,flowety01,2020,Tyler Flowers,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.07421981730961154
+519,florewi01,2020,Wilmer Flores,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,1,0,0.6860968285947782
+523,ramoswi01,2021,Wilson Ramos,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.31805091395135426
+524,molinya01,2021,Yadier Molina,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.25753239026174723
+525,gomesya01,2020,Yan Gomes,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,0,0.30268662698462984
+527,grandya01,2020,Yasmani Grandal#,hitter,Hitter,composite,2class,logistic,0.2,test,0.7700000000000002,0,1,0.8758869757677801
+4,jonesad01,2019,Adam Jones,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.3373785464340684
+13,gonzaad01,2018,Adrián González*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.19278503154089774
+19,polloaj01,2019,AJ Pollock,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.7043799812428826
+24,escobal02,2018,Alcides Escobar,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.34844562382308913
+28,avilaal01,2018,Alex Avila*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.47053785771633416
+41,mccutan01,2019,Andrew McCutchen,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.7431808277686844
+48,cabreas01,2019,Asdrúbal Cabrera#,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.4313674277026801
+52,jacksau01,2018,Austin Jackson,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.3403273582986183
+55,garciav01,2019,Avisaíl García,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.5245426747704695
+61,hamilbi02,2019,Billy Hamilton,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.6224590363847814
+64,millebr02,2019,Brad Miller*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.31335003604111944
+76,doziebr01,2019,Brian Dozier,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.8013508916791963
+78,mccanbr01,2019,Brian McCann*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.27439783970474974
+83,harpebr03,2019,Bryce Harper*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.9969949927144776
+84,josepca01,2019,Caleb Joseph,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.10045746042527605
+85,maybica01,2018,Cameron Maybin,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.4360206256618183
+91,gomezca01,2018,Carlos Gómez,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.18500845273529526
+92,gonzaca01,2018,Carlos González*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.4122645746967451
+96,santaca01,2018,Carlos Santana#,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.9094153298657615
+107,utleych01,2018,Chase Utley*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.07939506322374873
+114,herrmch01,2019,Chris Herrmann*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.22036328117983897
+117,iannech01,2018,Chris Iannetta,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.21726372515364192
+118,owingch01,2019,Chris Owings,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.41480488335925936
+120,stewach01,2018,Chris Stewart,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.0804417340563322
+136,spangco01,2019,Cory Spangenberg*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.25214605976242216
+140,grandcu01,2018,Curtis Granderson*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.38991989229105245
+143,descada01,2019,Daniel Descalso*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.30575524456098124
+145,murphda08,2019,Daniel Murphy*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.6431521887902143
+168,lemahdj01,2019,DJ LeMahieu,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.9270765316294082
+174,nunezed02,2018,Eduardo Núñez,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.5164181729301089
+186,hosmeer01,2018,Eric Hosmer*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.9841419544563152
+191,cervefr01,2019,Francisco Cervelli,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.49809527218722993
+198,galvifr01,2019,Freddy Galvis#,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.5911838625164493
+218,kendrho01,2018,Howie Kendrick,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.27573589883232114
+224,kinslia01,2019,Ian Kinsler,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.43803567841370467
+227,suzukic01,2018,Ichiro Suzuki*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.011920811161797495
+237,mccanja02,2019,James McCann,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,0,0.34771976630511264
+240,dysonja01,2018,Jarrod Dyson*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.5203218539619061
+251,bruceja01,2018,Jay Bruce*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.6335608810163352
+252,martijd02,2018,J.D. Martinez,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.9152633114524648
+254,lowrije01,2019,Jed Lowrie#,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.4843554329648385
+261,mathije01,2019,Jeff Mathis,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.04646764056635968
+266,panikjo01,2019,Joe Panik*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.7381947380131065
+271,jayjo02,2018,Jon Jay*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.19028554267885525
+272,jayjo02,2019,Jon Jay*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.1904593730760991
+273,lucrojo01,2018,Jonathan Lucroy,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.6567325212964632
+274,lucrojo01,2019,Jonathan Lucroy,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.47167403223127097
+275,schoojo01,2019,Jonathan Schoop,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.8571173260507426
+282,mercejo03,2019,Jordy Mercer,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.36730567262279784
+285,bautijo02,2018,José Bautista,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.2546356327436898
+293,reyesjo01,2018,José Reyes#,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.16220806263515988
+294,donaljo02,2019,Josh Donaldson,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.8702239092057328
+297,harrijo05,2019,Josh Harrison,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.4331375282954206
+308,bourju01,2019,Justin Bour*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.465741290371394
+336,suzukku01,2019,Kurt Suzuki,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.4141912106483797
+341,martile01,2018,Leonys Martín*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.21541874484944684
+342,morrilo01,2018,Logan Morrison*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.5956825625329097
+343,chiselo01,2019,Lonnie Chisenhall*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.4140289491831166
+344,cainlo01,2018,Lorenzo Cain,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.9435523033694322
+345,dudalu01,2018,Lucas Duda*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.3184788919001452
+355,machama01,2019,Manny Machado,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.998893849007454
+372,maldoma01,2019,Martín Maldonado,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.27428018790988384
+374,gonzama01,2019,Marwin González#,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.7274500120941113
+376,adamsma01,2018,Matt Adams*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.24332575895268888
+377,adamsma01,2019,Matt Adams*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.2610777363824356
+391,brantmi02,2019,Michael Brantley*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.6536144454664413
+399,moustmi01,2018,Mike Moustakas*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.731343173254974
+400,moustmi01,2019,Mike Moustakas*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.63829822353613
+408,morelmi01,2018,Mitch Moreland*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,0,0.4551830394171031
+416,walkene01,2018,Neil Walker#,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.5784097173146805
+417,walkene01,2019,Neil Walker#,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.32481024550214754
+420,cruzne02,2019,Nelson Cruz,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.5402072505318086
+425,hundlni01,2018,Nick Hundley,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.15983833825074575
+454,riverre01,2018,René Rivera,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.0523267059665901
+458,grossro01,2019,Robbie Grossman#,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.612310013330451
+462,chiriro01,2019,Robinson Chirinos,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,0,0.20561844287443434
+472,flahery01,2018,Ryan Flaherty*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.1281563689015848
+496,beckhti01,2019,Tim Beckham,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.27732884956822434
+497,frazito01,2018,Todd Frazier,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.7767643122289466
+506,tulowtr01,2019,Troy Tulowitzki,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.3008851487383153
+512,castiwe01,2018,Welington Castillo,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,0,0.5035861096281643
+518,florewi01,2019,Wilmer Flores,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.6423268240621356
+522,ramoswi01,2019,Wilson Ramos,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.6836053547968468
+526,grandya01,2019,Yasmani Grandal#,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,1,1,0.8668674987374871
+530,alonsyo01,2018,Yonder Alonso*,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.6511199591737427
+533,cozarza01,2018,Zack Cozart,hitter,Hitter,war,2class,logistic,0.2,valid,0.5200000000000001,0,1,0.7896036066382527
+1,almonab01,2021,Abraham Almonte#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.1248990497000104
+2,duvalad01,2021,Adam Duvall,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,0,0.12698720669279417
+3,eatonad02,2021,Adam Eaton*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.35513501060422337
+12,hechaad01,2020,Adeiny Hechavarría,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.196232865944979
+20,almoral01,2021,Albert Almora,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.37366816036676925
+22,pujolal01,2021,Albert Pujols,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.028661317945012994
+29,avilaal01,2020,Alex Avila*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.2640078257266552
+30,avilaal01,2021,Alex Avila*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.12093553556733877
+34,gordoal01,2020,Alex Gordon*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.14445672429624093
+38,simmoan01,2021,Andrelton Simmons,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.703586755496894
+44,rendoan01,2020,Anthony Rendon,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.9977097679652678
+49,cabreas01,2020,Asdrúbal Cabrera#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.28638903605535276
+50,cabreas01,2021,Asdrúbal Cabrera#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.1529193952017182
+53,rominau01,2020,Austin Romine,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.2242143896817269
+54,rominau01,2021,Austin Romine,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.12499247786396213
+56,garciav01,2020,Avisaíl García,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.6414273318783051
+65,millebr02,2020,Brad Miller*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.2426679358599556
+66,millebr02,2021,Brad Miller*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.1932420248235727
+74,gardnbr01,2020,Brett Gardner*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.6645187224877849
+75,gardnbr01,2021,Brett Gardner*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.31235662882594456
+79,ogradbr01,2021,Brian O'Grady*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.09151697209379468
+82,holtbr01,2020,Brock Holt*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.2800611608508626
+86,maybica01,2020,Cameron Maybin,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.24192547072175258
+97,santaca01,2021,Carlos Santana#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.7305899594696194
+101,hernace02,2020,César Hernández#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.7693255018719871
+102,hernace02,2021,César Hernández#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.59841970828326
+103,trompch01,2021,Chadwick Tromp,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.1393281153329861
+121,croncj01,2020,C.J. Cron,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,0,0.41370877140111695
+133,dickeco01,2020,Corey Dickerson*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.5571121426458095
+138,casalcu01,2021,Curt Casali,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.2668292315126293
+147,roberda10,2021,Daniel Robertson,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.4810836212157412
+148,santada01,2021,Danny Santana#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.10498649976654698
+149,dahlda01,2021,David Dahl*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.24259784609925622
+163,gregodi01,2020,Didi Gregorius*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.8245256363786727
+164,gregodi01,2021,Didi Gregorius*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.6977514642590192
+169,lemahdj01,2021,DJ LeMahieu,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.9340192571155218
+170,santado01,2020,Domingo Santana,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.46060019577373773
+172,garnedu01,2020,Dustin Garneau,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.5088782144155639
+173,rosared01,2021,Eddie Rosario*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.7080278431081126
+176,encared01,2020,Edwin Encarnación,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.4065777740739946
+187,sogarer01,2020,Eric Sogard*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.3120733645218558
+188,thameer01,2020,Eric Thames*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.15852466173353888
+192,cervefr01,2020,Francisco Cervelli,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.2630747225645083
+199,galvifr01,2021,Freddy Galvis#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.3462674024060113
+201,springe01,2021,George Springer,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.952885904301808
+212,heredgu01,2020,Guillermo Heredia,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.3884875854848388
+219,kendrho01,2020,Howie Kendrick,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.13475085901504907
+220,pencehu01,2020,Hunter Pence,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.04303782567614275
+221,renfrhu01,2021,Hunter Renfroe,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,0,0.3614130842307615
+230,bradlja02,2021,Jackie Bradley Jr.*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.5803453255458415
+233,lambja01,2020,Jake Lamb*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.4188495069484658
+234,marisja01,2021,Jake Marisnick,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.11292796315926537
+238,mccanja02,2021,James McCann,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.487737114827132
+241,dysonja01,2020,Jarrod Dyson*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.22453609326280252
+242,dysonja01,2021,Jarrod Dyson*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.08012768646903591
+247,castrja01,2020,Jason Castro*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.19954390153498464
+248,castrja01,2021,Jason Castro*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.08782270109254946
+255,gyorkje01,2020,Jedd Gyorko,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.3103503674511834
+265,pederjo01,2021,Joc Pederson*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.5158129497679154
+276,schoojo01,2020,Jonathan Schoop,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.7093929213629228
+277,schoojo01,2021,Jonathan Schoop,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.3994961693743291
+278,villajo01,2021,Jonathan Villar#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.475904992362346
+283,abreujo02,2020,José Abreu,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.6409538619308819
+286,iglesjo01,2020,Jose Iglesias,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.5015974754232112
+287,iglesjo01,2021,Jose Iglesias,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.41502975803840125
+291,perazjo01,2020,José Peraza,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.6150107407550619
+295,donaljo02,2020,Josh Donaldson,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.8476972173687858
+302,realmjt01,2021,J.T. Realmuto,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.9398768910688818
+307,profaju01,2021,Jurickson Profar#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.767562224270904
+314,smoakju01,2020,Justin Smoak#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.5196104320783145
+317,turneju01,2021,Justin Turner,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.6498280440282251
+328,pillake01,2020,Kevin Pillar,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.4785283673745039
+329,pillake01,2021,Kevin Pillar,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.31376979089407203
+330,plaweke01,2020,Kevin Plawecki,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.5116795271761498
+332,calhoko01,2020,Kole Calhoun*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.4669219261602344
+333,wongko01,2021,Kolten Wong*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.8339278826563906
+337,suzukku01,2021,Kurt Suzuki,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.17025938603235402
+338,schwaky01,2021,Kyle Schwarber*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.6426280299540791
+347,mailelu01,2020,Luke Maile,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.2086511435050734
+348,mailelu01,2021,Luke Maile,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.23698561911305638
+353,francma02,2020,Maikel Franco,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.6072148125953161
+354,francma02,2021,Maikel Franco,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.5157064139176045
+356,ozunama01,2020,Marcell Ozuna,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.8859699150887003
+357,ozunama01,2021,Marcell Ozuna,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.8667391420839001
+358,hernama02,2020,Marco Hernández*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.13803496453003294
+360,semiema01,2021,Marcus Semien,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.9125837043780475
+373,maldoma01,2020,Martín Maldonado,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.25158526372430595
+375,gonzama01,2021,Marwin González#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.3159123728490764
+378,duffyma01,2021,Matt Duffy,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.5453856580389852
+382,joycema01,2020,Matt Joyce*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.19710438338722844
+386,wietema01,2020,Matt Wieters#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.1557437802066347
+389,taylomi02,2021,Michael A. Taylor,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,0,0.09460446386066625
+392,brantmi02,2021,Michael Brantley*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.7780647509419671
+401,moustmi01,2020,Mike Moustakas*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.8325506719690413
+406,zuninmi01,2021,Mike Zunino,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.10787238115896351
+409,morelmi01,2020,Mitch Moreland*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.29010638269209316
+410,morelmi01,2021,Mitch Moreland*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.17752103503359587
+421,cruzne02,2021,Nelson Cruz,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.2055615271644082
+422,casteni01,2020,Nick Castellanos,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.8493656408836949
+427,markani01,2020,Nick Markakis*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.328866148462716
+431,mazarno01,2021,Nomar Mazara*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.4331091652947918
+455,riverre01,2021,René Rivera,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.0062008577174987095
+459,grossro01,2021,Robbie Grossman#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.5656658058466351
+463,chiriro01,2020,Robinson Chirinos,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.2887712051626451
+478,zimmery01,2020,Ryan Zimmerman,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.1907505370858932
+479,zimmery01,2021,Ryan Zimmerman,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.12785847148638854
+480,healyry01,2020,Ryon Healy,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.3193367407159951
+483,heinesc01,2021,Scott Heineman,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.1949284247516907
+489,castrst01,2020,Starlin Castro,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.6148509124375696
+495,vogtst01,2020,Stephen Vogt*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.10755434725302314
+498,frazito01,2020,Todd Frazier,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.4595768342458351
+499,lasteto01,2021,Tommy La Stella*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.5751985911484857
+502,darnatr01,2020,Travis d'Arnaud,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,0,0.3806280065141119
+504,shawtr01,2020,Travis Shaw*,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.5702258360517749
+509,flowety01,2020,Tyler Flowers,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.17593484181112704
+519,florewi01,2020,Wilmer Flores,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,1,0.6269673365447608
+523,ramoswi01,2021,Wilson Ramos,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.4200829872692897
+524,molinya01,2021,Yadier Molina,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,0,0.17143606326072794
+525,gomesya01,2020,Yan Gomes,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,1,0,0.43837660093604
+527,grandya01,2020,Yasmani Grandal#,hitter,Hitter,war,2class,logistic,0.2,test,0.5200000000000001,0,1,0.9166555355281599
+13,sanchan01,2018,Aníbal Sánchez,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,0,0.3813167784530581
+14,sanchan01,2019,Aníbal Sánchez,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,1,0.7255396726763742
+26,anderbr04,2019,Brett Anderson*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,1,0.6139689932331711
+32,sabatc.01,2018,CC Sabathia*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.44372086340370454
+33,sabatc.01,2019,CC Sabathia*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.3457519774589674
+36,mortoch02,2019,Charlie Morton,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,1,0.7605021954592132
+42,buchhcl01,2019,Clay Buchholz,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.5641013086471792
+48,keuchda01,2019,Dallas Keuchel*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,1,0.7144598185731854
+54,fistedo01,2018,Doug Fister,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.2785300463272315
+55,smylydr01,2018,Drew Smyly*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.5120447824340855
+68,richaga01,2019,Garrett Richards,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.4931216969537539
+71,gonzagi01,2019,Gio González*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.1414665667288215
+82,happja01,2019,J.A. Happ*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,1,0.7388293247747837
+84,arrieja01,2018,Jake Arrieta,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,1,0.9080590668303439
+91,vargaja01,2018,Jason Vargas*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,1,0.6219546973129243
+99,chacijh01,2018,Jhoulys Chacín,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.44678278051252734
+109,lylesjo01,2018,Jordan Lyles,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.35843457725652705
+110,lylesjo01,2019,Jordan Lyles,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.41328164651014226
+129,lynnla01,2018,Lance Lynn,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,0,0.40422794628660136
+130,lynnla01,2019,Lance Lynn,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,1,0.674921890382979
+134,estrama01,2019,Marco Estrada,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.2614579088455028
+137,perezma02,2019,Martín Pérez*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,0,0.20080017361903896
+141,shoemma01,2019,Matt Shoemaker,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.4020663070438597
+144,pinedmi01,2018,Michael Pineda,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.516463994439733
+149,gonzami03,2018,Miguel González,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.2721728500058215
+153,minormi01,2018,Mike Minor*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,1,0.7920432824687287
+155,karnsna01,2019,Nate Karns,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.37967116424494585
+157,eovalna01,2019,Nathan Eovaldi,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,1,0.9426730366162274
+158,corbipa01,2019,Patrick Corbin*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,1,0.9740045754939767
+198,cahiltr01,2018,Trevor Cahill,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.28670207325396185
+199,cahiltr01,2019,Trevor Cahill,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.43795506654719474
+203,rossty01,2019,Tyson Ross,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,1,0.7731012433827706
+205,leblawa01,2018,Wade LeBlanc*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.4782300056866528
+207,mileywa01,2019,Wade Miley*,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,0,0.2199787472816563
+211,gallayo01,2018,Yovani Gallardo,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,0,0,0.17009157011348122
+212,darviyu01,2018,Yu Darvish,sp,Starting Pitcher,composite,2class,logistic,0.4,valid,0.5700000000000002,1,1,0.9846243879475104
+3,sanchaa01,2021,Aaron Sanchez,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.3178244427930269
+4,wainwad01,2020,Adam Wainwright,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.3948557512229278
+5,wainwad01,2021,Adam Wainwright,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.5578683100170628
+8,woodal02,2020,Alex Wood*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.3319998138840631
+9,woodal02,2021,Alex Wood*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.47723851556060626
+15,desclan01,2021,Anthony DeSclafani,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.5233453740381114
+27,anderbr04,2020,Brett Anderson*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.37623377549775294
+28,anderbr04,2021,Brett Anderson*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.2978491238917075
+31,rodonca01,2021,Carlos Rodón*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.4564228229109818
+37,mortoch02,2021,Charlie Morton,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,1,0.7273067840261113
+38,anderch01,2021,Chase Anderson,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.42487386211079703
+39,archech01,2021,Chris Archer,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.4579844152999616
+40,flexech01,2021,Chris Flexen,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,1,0.8649898182215049
+45,hamelco01,2020,Cole Hamels*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.6915428308925928
+46,hamelco01,2021,Cole Hamels*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.3493001959049819
+47,klubeco01,2021,Corey Kluber,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.6520421492153265
+49,keuchda01,2020,Dallas Keuchel*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.8163664067938341
+56,smylydr01,2020,Drew Smyly*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.6789609693735592
+57,smylydr01,2021,Drew Smyly*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,1,0.7606686896648638
+66,hernafe02,2021,Félix Hernández,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.4333803397422052
+69,richaga01,2021,Garrett Richards,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.7276815606013323
+70,colege01,2020,Gerrit Cole,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,1,0.9988583740424931
+72,gonzagi01,2020,Gio González*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.22640272130549133
+78,baileho02,2020,Homer Bailey,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.5111495927409428
+80,novaiv01,2020,Iván Nova,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.1661790731417071
+83,happja01,2021,J.A. Happ*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.5078052331676048
+85,arrieja01,2021,Jake Arrieta,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.39041598958701856
+86,odorija01,2021,Jake Odorizzi,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.7294917331758803
+87,paxtoja01,2021,James Paxton*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.5963239828313256
+100,chacijh01,2021,Jhoulys Chacín,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.30040584053348335
+108,lestejo01,2021,Jon Lester*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.3570746560471339
+111,lylesjo01,2020,Jordan Lyles,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.6753364865618222
+113,quintjo01,2021,Jose Quintana*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.43005732832660915
+114,urenajo01,2021,José Ureña,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.3064580406383412
+117,lindbjo01,2020,Josh Lindblom,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.8967248701716724
+118,teherju01,2020,Julio Teheran,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.22888444739127678
+121,gausmke01,2020,Kevin Gausman,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.3986772104686354
+122,gausmke01,2021,Kevin Gausman,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,1,0.8292437419890903
+123,stewako01,2020,Kohl Stewart,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.3104172488297225
+124,stewako01,2021,Kohl Stewart,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.3073649567487631
+126,gibsoky01,2020,Kyle Gibson,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,1,0.5740910992949596
+132,bumgama01,2020,Madison Bumgarner*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.9284467800709377
+135,stromma01,2021,Marcus Stroman,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,1,0.7998990781934652
+138,perezma02,2020,Martín Pérez*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.30436309681211543
+142,shoemma01,2021,Matt Shoemaker,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.42193886199292335
+145,pinedmi01,2020,Michael Pineda,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.8094424527173921
+146,wachami01,2020,Michael Wacha,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.1588743693650738
+147,wachami01,2021,Michael Wacha,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.37681419941154215
+150,foltymi01,2021,Mike Foltynewicz,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.7047579586742309
+154,minormi01,2021,Mike Minor*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.6962547668696099
+166,hillri01,2020,Rich Hill*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.3301109385341958
+167,hillri01,2021,Rich Hill*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.3543158877391621
+168,porceri01,2020,Rick Porcello,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.4394291218775335
+170,rayro02,2021,Robbie Ray*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.4028244261021646
+187,strasst01,2020,Stephen Strasburg,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.9974759256325877
+188,walketa01,2020,Taijuan Walker,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.12222240657009349
+189,walketa01,2021,Taijuan Walker,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.5068303219705858
+190,roarkta01,2020,Tanner Roark,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.5803648636692456
+195,bauertr01,2021,Trevor Bauer,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,1,0.9819683908716572
+200,cahiltr01,2021,Trevor Cahill,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.29433467759208626
+201,anderty01,2020,Tyler Anderson*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.5473801694573579
+202,anderty01,2021,Tyler Anderson*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.5465163257736307
+206,leblawa01,2021,Wade LeBlanc*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,0,0,0.501330003466098
+208,mileywa01,2020,Wade Miley*,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,0,0.3617125453817198
+215,wheelza01,2020,Zack Wheeler,sp,Starting Pitcher,composite,2class,logistic,0.4,test,0.5700000000000002,1,1,0.969026121373747
+13,sanchan01,2018,Aníbal Sánchez,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,0,0.3411056103468188
+14,sanchan01,2019,Aníbal Sánchez,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.7497071391028894
+26,anderbr04,2019,Brett Anderson*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.721485420819526
+32,sabatc.01,2018,CC Sabathia*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.6119940066558954
+33,sabatc.01,2019,CC Sabathia*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.5504298323027335
+36,mortoch02,2019,Charlie Morton,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.8874666290298188
+42,buchhcl01,2019,Clay Buchholz,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,1,0.6920818685656497
+48,keuchda01,2019,Dallas Keuchel*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.7171436203532154
+54,fistedo01,2018,Doug Fister,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.3488557482947422
+55,smylydr01,2018,Drew Smyly*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.4452818213788502
+68,richaga01,2019,Garrett Richards,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,1,0.6965957102327031
+71,gonzagi01,2019,Gio González*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,0,0.07100641775227727
+82,happja01,2019,J.A. Happ*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,1,0.8454819159486717
+84,arrieja01,2018,Jake Arrieta,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.892876766479208
+91,vargaja01,2018,Jason Vargas*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,1,0.8271498396109781
+99,chacijh01,2018,Jhoulys Chacín,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.4202758601977866
+109,lylesjo01,2018,Jordan Lyles,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.24860308783807394
+110,lylesjo01,2019,Jordan Lyles,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.2739358943576967
+129,lynnla01,2018,Lance Lynn,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.5618911645857758
+130,lynnla01,2019,Lance Lynn,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.7321641374612045
+134,estrama01,2019,Marco Estrada,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.25050512739294867
+137,perezma02,2019,Martín Pérez*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,0,0.0900733783586759
+141,shoemma01,2019,Matt Shoemaker,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.4480784990193926
+144,pinedmi01,2018,Michael Pineda,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,0,0.23625172715414303
+149,gonzami03,2018,Miguel González,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.31118559366556536
+153,minormi01,2018,Mike Minor*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.8634785259201416
+155,karnsna01,2019,Nate Karns,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.4773863734086796
+157,eovalna01,2019,Nathan Eovaldi,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.9595419800052821
+158,corbipa01,2019,Patrick Corbin*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.9316273301951806
+198,cahiltr01,2018,Trevor Cahill,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,0,0.29805529415778076
+199,cahiltr01,2019,Trevor Cahill,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.5440281641638647
+203,rossty01,2019,Tyson Ross,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,1,0.8331075717039303
+205,leblawa01,2018,Wade LeBlanc*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.6387162163452293
+207,mileywa01,2019,Wade Miley*,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,0,0.19175933214741883
+211,gallayo01,2018,Yovani Gallardo,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,0,0,0.11784737187217935
+212,darviyu01,2018,Yu Darvish,sp,Starting Pitcher,war,2class,logistic,0.4,valid,0.5600000000000002,1,1,0.9907806406344583
+3,sanchaa01,2021,Aaron Sanchez,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.2838001084231591
+4,wainwad01,2020,Adam Wainwright,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.6682701123327133
+5,wainwad01,2021,Adam Wainwright,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.8727861411910838
+8,woodal02,2020,Alex Wood*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.21754947104084899
+9,woodal02,2021,Alex Wood*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.5160574732157519
+15,desclan01,2021,Anthony DeSclafani,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.5190056407065179
+27,anderbr04,2020,Brett Anderson*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.39903367356464486
+28,anderbr04,2021,Brett Anderson*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.35803764243443303
+31,rodonca01,2021,Carlos Rodón*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.4886760734760286
+37,mortoch02,2021,Charlie Morton,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.8533755769074772
+38,anderch01,2021,Chase Anderson,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.47094683986335045
+39,archech01,2021,Chris Archer,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.5464589432690445
+40,flexech01,2021,Chris Flexen,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.9196066940804077
+45,hamelco01,2020,Cole Hamels*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.8685885800660123
+46,hamelco01,2021,Cole Hamels*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.5059853324147017
+47,klubeco01,2021,Corey Kluber,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.8411458050360822
+49,keuchda01,2020,Dallas Keuchel*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.8668830211945592
+56,smylydr01,2020,Drew Smyly*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.8522254758976119
+57,smylydr01,2021,Drew Smyly*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.8977680150875533
+66,hernafe02,2021,Félix Hernández,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.6280933751562119
+69,richaga01,2021,Garrett Richards,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.9112028713322136
+70,colege01,2020,Gerrit Cole,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.997406053219058
+72,gonzagi01,2020,Gio González*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.23525484468074073
+78,baileho02,2020,Homer Bailey,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.5712469518968818
+80,novaiv01,2020,Iván Nova,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.09833903692312206
+83,happja01,2021,J.A. Happ*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.7473463826512817
+85,arrieja01,2021,Jake Arrieta,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.5710165727612172
+86,odorija01,2021,Jake Odorizzi,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.6734973613795218
+87,paxtoja01,2021,James Paxton*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.5752710739798944
+100,chacijh01,2021,Jhoulys Chacín,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.37383898029379165
+108,lestejo01,2021,Jon Lester*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.5014693994601854
+111,lylesjo01,2020,Jordan Lyles,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.5518375267665052
+113,quintjo01,2021,Jose Quintana*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.4281308342621198
+114,urenajo01,2021,José Ureña,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.2910343658873854
+117,lindbjo01,2020,Josh Lindblom,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.9254560998685819
+118,teherju01,2020,Julio Teheran,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.1299871738886796
+121,gausmke01,2020,Kevin Gausman,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.20065960267068597
+122,gausmke01,2021,Kevin Gausman,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.8273874430298715
+123,stewako01,2020,Kohl Stewart,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.38985831266575177
+124,stewako01,2021,Kohl Stewart,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.3854320350863747
+126,gibsoky01,2020,Kyle Gibson,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.42931748021198357
+132,bumgama01,2020,Madison Bumgarner*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.9105920415620549
+135,stromma01,2021,Marcus Stroman,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.8501639380709268
+138,perezma02,2020,Martín Pérez*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.18238695852094247
+142,shoemma01,2021,Matt Shoemaker,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.7585686382310302
+145,pinedmi01,2020,Michael Pineda,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.8442213495296823
+146,wachami01,2020,Michael Wacha,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.0905770259298686
+147,wachami01,2021,Michael Wacha,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.35592883799185354
+150,foltymi01,2021,Mike Foltynewicz,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.7126784411410747
+154,minormi01,2021,Mike Minor*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.6798732841124954
+166,hillri01,2020,Rich Hill*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.639970513665431
+167,hillri01,2021,Rich Hill*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.7916858686238962
+168,porceri01,2020,Rick Porcello,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.2268612262286436
+170,rayro02,2021,Robbie Ray*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.3557427469662613
+187,strasst01,2020,Stephen Strasburg,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.9976620991516649
+188,walketa01,2020,Taijuan Walker,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.12014495472793363
+189,walketa01,2021,Taijuan Walker,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.6875606997708548
+190,roarkta01,2020,Tanner Roark,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.5358976132566149
+195,bauertr01,2021,Trevor Bauer,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.986733014506703
+200,cahiltr01,2021,Trevor Cahill,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,0,0.4177810224484016
+201,anderty01,2020,Tyler Anderson*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.4977279019990586
+202,anderty01,2021,Tyler Anderson*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.5839935496995575
+206,leblawa01,2021,Wade LeBlanc*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,0,1,0.6835319328652523
+208,mileywa01,2020,Wade Miley*,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,0,0.38439165566679495
+215,wheelza01,2020,Zack Wheeler,sp,Starting Pitcher,war,2class,logistic,0.4,test,0.5600000000000002,1,1,0.9631237444305802
+0,loupaa01,2019,Aaron Loup*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,0,0.15944500616600463
+2,ottavad01,2019,Adam Ottavino,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.5727095183870438
+3,warread01,2019,Adam Warren,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.23287311272664968
+4,reedad01,2018,Addison Reed,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.7516795580763284
+10,wilsoal01,2019,Alex Wilson,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.23320746214741156
+14,cashnan01,2018,Andrew Cashner,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.7512324295541489
+17,millean01,2019,Andrew Miller*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.8048327965561188
+19,swarzan01,2018,Anthony Swarzak,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.6596805168559239
+25,parkebl01,2019,Blake Parker,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.2557465910529895
+31,loganbo02,2018,Boone Logan*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.3734891652132662
+32,boxbebr01,2019,Brad Boxberger,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.2973726351424047
+33,brachbr01,2019,Brad Brach,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.42832715021953816
+38,kintzbr01,2018,Brandon Kintzler,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.3915431323251882
+42,morrobr01,2018,Brandon Morrow,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.6355196728751301
+46,duensbr01,2018,Brian Duensing*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.35368803776059254
+51,shawbr01,2018,Bryan Shaw,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.6154499961190529
+53,norribu01,2018,Bud Norris,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.5338160928404028
+78,allenco01,2019,Cody Allen,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.5552564029921697
+81,gearrco01,2019,Cory Gearrin,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.15056695252328675
+83,kimbrcr01,2019,Craig Kimbrel,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.8939373490227159
+84,stammcr01,2018,Craig Stammen,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.42124384088499645
+86,jennida01,2018,Dan Jennings*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.2398175832321116
+91,alvarda01,2018,Dario Álvarez*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.1390125387994391
+98,hernada01,2018,David Hernández,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.41715419167987045
+99,phelpda01,2019,David Phelps,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.3270615119477834
+103,roberda08,2019,David Robertson,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.7338611054355987
+106,hollade01,2019,Derek Holland*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.6851165634821029
+107,pomerdr01,2019,Drew Pomeranz*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.5605878385716607
+125,rodnefe01,2018,Fernando Rodney,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.46182631827930165
+130,liriafr01,2018,Francisco Liriano*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.6302917133228637
+140,hollagr01,2018,Greg Holland,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.37918920320682664
+141,hollagr01,2019,Greg Holland,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.3637842930879426
+146,rondohe01,2018,Héctor Rondón,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.4189745728258861
+148,strichu01,2019,Hunter Strickland,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.15389874490208483
+152,garcija02,2018,Jaime García*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.8511845234751894
+153,diekmja01,2019,Jake Diekman*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.2813272438602647
+155,mcgeeja01,2018,Jake McGee*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.4760005850990584
+159,petrija01,2019,Jake Petricka,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.13398656450481095
+164,hugheja02,2018,Jared Hughes,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.6442575092203819
+181,hellije01,2019,Jeremy Hellickson,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.4122529312971771
+187,chaveje01,2018,Jesse Chavez,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.4483893952367917
+188,chaveje01,2019,Jesse Chavez,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.6147413281346863
+191,familje01,2019,Jeurys Familia,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.6368632751277318
+198,soriajo01,2019,Joakim Soria,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.670911388949574
+202,benoijo01,2018,Joaquin Benoit,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.1733347241800599
+208,kellyjo05,2019,Joe Kelly,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.6672155686706415
+214,smithjo05,2018,Joe Smith,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.4017960148027237
+242,nicasju01,2018,Juan Nicasio,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.6459275602514073
+246,grimmju01,2018,Justin Grimm,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.1197481067775428
+248,wilsoju10,2019,Justin Wilson*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.3159978820500456
+251,herreke01,2019,Kelvin Herrera,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.535897543489413
+253,graveke01,2019,Kendall Graveman,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.45127451681377234
+273,gregelu01,2018,Luke Gregerson,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.4557391749867556
+285,alberma01,2018,Matt Albers,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.4166542677807741
+292,moorema02,2019,Matt Moore*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.5717722592560015
+312,perezol01,2018,Óliver Pérez*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.3060087446719166
+313,perezol01,2019,Óliver Pérez*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.4679555485001695
+316,neshepa01,2018,Pat Neshek,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.607048351320755
+317,vendipa01,2019,Pat Venditte#,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.2564648231734297
+320,moylape01,2018,Peter Moylan,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.14548087974295273
+350,romose01,2018,Sergio Romo,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.3820797600236149
+351,romose01,2019,Sergio Romo,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.40590277273986924
+354,ohse01,2018,Seunghwan Oh,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.3473479746124726
+358,kellesh01,2019,Shawn Kelley,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.4890564024505464
+360,millesh01,2019,Shelby Miller,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.31437073227790546
+362,cishest01,2018,Steve Cishek,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.4308463202117122
+367,linceti01,2018,Tim Lincecum,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.41871176800814874
+369,mcfartj01,2018,T.J. McFarland*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.3167616626740985
+373,koehlto01,2018,Tom Koehler,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.4341429966313354
+375,hunteto02,2018,Tommy Hunter,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.4753667457959983
+378,barneto01,2018,Tony Barnette,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.1517755572071474
+379,barneto01,2019,Tony Barnette,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.19574529415028993
+382,sippto01,2019,Tony Sipp*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.1344983879396534
+383,watsoto01,2018,Tony Watson*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.5692110309948889
+386,rosentr01,2019,Trevor Rosenthal,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.6025577561434092
+389,chatwty01,2018,Tyler Chatwood,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.8449310856371521
+394,daviswa01,2018,Wade Davis,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.7851748841166432
+399,peralwi01,2018,Wily Peralta,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.44173498992317994
+403,petityu01,2018,Yusmeiro Petit,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.6452527236016122
+405,rosscza01,2019,Zac Rosscup*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,1,0.3008472392323886
+408,dukeza01,2018,Zach Duke*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.20465768903618975
+409,dukeza01,2019,Zach Duke*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,0,0,0.19717831523953563
+411,brittza01,2019,Zack Britton*,rp,Relief Pitcher,composite,2class,rf,0.45,valid,0.25000000000000006,1,1,0.6450021411874091
+1,loupaa01,2021,Aaron Loup*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.5086212654567284
+7,claudal01,2020,Álex Claudio*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.41786221933048057
+8,claudal01,2021,Álex Claudio*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.10797420291961456
+9,colomal01,2021,Alex Colomé,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.41761490083119707
+15,chafian01,2021,Andrew Chafin*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.3399732154654768
+18,bassan01,2021,Anthony Bass,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.4243371564835903
+20,swarzan01,2020,Anthony Swarzak,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.1940323509512728
+22,bradlar01,2021,Archie Bradley,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.38116506896078717
+26,treinbl01,2020,Blake Treinen,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.659731413009383
+27,treinbl01,2021,Blake Treinen,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.5802786975902176
+34,brachbr01,2020,Brad Brach,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.3745041632615282
+35,handbr01,2021,Brad Hand*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.6184266915701975
+39,kintzbr01,2020,Brandon Kintzler,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.33046939250400686
+43,workmbr01,2021,Brandon Workman,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.14446448087081132
+66,roech01,2021,Chaz Roe,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.12347692634853438
+72,devench02,2021,Chris Devenski,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.17312551529881703
+73,martich02,2020,Chris Martin,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.5867578842259569
+79,mchugco01,2020,Collin McHugh,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.4303002549918368
+80,mchugco01,2021,Collin McHugh,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.332649129527742
+85,stammcr01,2020,Craig Stammen,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.5135829025368105
+88,winklda01,2020,Dan Winkler,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.1608761073295596
+90,hudsoda01,2020,Daniel Hudson,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.430648739530982
+93,odayda01,2020,Darren O'Day,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.5621187606510535
+94,odayda01,2021,Darren O'Day,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.47271847914455434
+100,phelpda01,2020,David Phelps,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.4898795947033691
+101,phelpda01,2021,David Phelps,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.25072631674929596
+104,betande01,2020,Dellin Betances,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.747558483595785
+108,pomerdr01,2020,Drew Pomeranz*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.8413200426283927
+142,hollagr01,2021,Greg Holland,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.286225901649136
+144,robleha01,2021,Hansel Robles,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.2586483861522582
+147,rondohe01,2020,Héctor Rondón,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.34602950697049295
+154,diekmja01,2020,Jake Diekman*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.43593814670417597
+156,mcgeeja01,2020,Jake McGee*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.17688601506516938
+157,mcgeeja01,2021,Jake McGee*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.5027693139991123
+160,hoytja01,2020,James Hoyt,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.3752348677249433
+165,hugheja02,2020,Jared Hughes,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.4230549045226083
+182,jeffrje01,2020,Jeremy Jeffress,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.26866120657306636
+190,hahnje01,2020,Jesse Hahn,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.3414909448761319
+194,hergeji01,2021,Jimmy Herget,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.3367307311480578
+195,nelsoji02,2020,Jimmy Nelson,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.4197583952102585
+199,soriajo01,2021,Joakim Soria,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.5613340212673552
+215,smithjo05,2020,Joe Smith,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.7019212787888307
+219,rodrijo06,2020,Joely Rodríguez*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.3714191795271376
+221,brebbjo01,2021,John Brebbia,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.37362147023451897
+228,holdejo02,2021,Jonathan Holder,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.17507045579261926
+230,alvarjo02,2021,José Álvarez*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.06408323969447331
+234,osichjo01,2020,Josh Osich*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.10076888854913038
+236,tomlijo01,2021,Josh Tomlin,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.32630022174832934
+244,guerrju02,2020,Junior Guerra,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.4818468688329002
+249,wilsoju10,2021,Justin Wilson*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.3505534799778447
+252,gileske01,2021,Ken Giles,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.5107898890379692
+254,graveke01,2020,Kendall Graveman,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.3879323553263982
+256,kelake01,2021,Keone Kela,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.30278017996770334
+259,middlke01,2021,Keynan Middleton,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.3670621782339467
+260,yateski01,2021,Kirby Yates,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.5814951227026876
+267,hendrli01,2021,Liam Hendriks,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.8811962972885451
+282,melanma01,2021,Mark Melancon,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,0,0.17511902659050516
+286,andrima01,2021,Matt Andriese,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.33390579972408496
+293,moorema02,2021,Matt Moore*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.5052574600058413
+295,wislema01,2021,Matt Wisler,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.2940944924188646
+308,drakeol01,2021,Oliver Drake,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.0883745231522388
+318,baezpe01,2021,Pedro Báez,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.4006872821412781
+319,stroppe01,2020,Pedro Strop,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.13258567695292764
+322,johnspi01,2020,Pierce Johnson,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.44687067837903094
+331,detwiro01,2021,Ross Detwiler*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.2896713814160062
+339,teperry01,2020,Ryan Tepera,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,0,0.1417148429530114
+340,teperry01,2021,Ryan Tepera,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,0,0.14717136403591685
+342,stanery01,2021,Ryne Stanek,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.265216552378344
+347,doolise01,2021,Sean Doolittle*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.3584052972051937
+352,romose01,2020,Sergio Romo,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.4856585316558799
+353,romose01,2021,Sergio Romo,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.358223981277305
+355,greensh02,2021,Shane Greene,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.1801576201835476
+363,cishest01,2020,Steve Cishek,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.429902536553208
+364,cishest01,2021,Steve Cishek,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,0,0.1858028793835379
+376,hunteto02,2020,Tommy Hunter,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.34034719427455357
+377,kahnlto01,2021,Tommy Kahnle,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.6295930239321141
+384,watsoto01,2021,Tony Watson*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.19779208769283851
+385,maytr01,2021,Trevor May,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.6006329717845909
+387,rosentr01,2021,Trevor Rosenthal,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.385024523583089
+388,willitr01,2021,Trevor Williams,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.7424591011354006
+390,chatwty01,2021,Tyler Chatwood,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.5699439379892454
+392,clippty01,2020,Tyler Clippard,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.5103563258800317
+393,clippty01,2021,Tyler Clippard,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.3012543729910184
+397,harriwi10,2020,Will Harris,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.7326473337311836
+398,smithwi04,2020,Will Smith*,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.922875802721381
+400,garciyi01,2020,Yimi García,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,1,1,0.25626749897698264
+401,hiranyo01,2020,Yoshihisa Hirano,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,0,0.1778163798141878
+404,petityu01,2021,Yusmeiro Petit,rp,Relief Pitcher,composite,2class,rf,0.45,test,0.25000000000000006,0,1,0.5561490239034342
+0,loupaa01,2019,Aaron Loup*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.1763250082731247
+2,ottavad01,2019,Adam Ottavino,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.884457528591156
+3,warread01,2019,Adam Warren,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.30415692925453186
+4,reedad01,2018,Addison Reed,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.8706449270248413
+10,wilsoal01,2019,Alex Wilson,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.25035953521728516
+14,cashnan01,2018,Andrew Cashner,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.9074043035507202
+17,millean01,2019,Andrew Miller*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.9409509897232056
+19,swarzan01,2018,Anthony Swarzak,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.8653221726417542
+25,parkebl01,2019,Blake Parker,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.28634610772132874
+31,loganbo02,2018,Boone Logan*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.7168465256690979
+32,boxbebr01,2019,Brad Boxberger,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.22285617887973785
+33,brachbr01,2019,Brad Brach,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.5005506873130798
+38,kintzbr01,2018,Brandon Kintzler,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.7309933304786682
+42,morrobr01,2018,Brandon Morrow,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.7792100310325623
+46,duensbr01,2018,Brian Duensing*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.48523786664009094
+51,shawbr01,2018,Bryan Shaw,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.6579074263572693
+53,norribu01,2018,Bud Norris,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.2414853572845459
+78,allenco01,2019,Cody Allen,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.6178817749023438
+81,gearrco01,2019,Cory Gearrin,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.280255526304245
+83,kimbrcr01,2019,Craig Kimbrel,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.9624713659286499
+84,stammcr01,2018,Craig Stammen,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.5739923715591431
+86,jennida01,2018,Dan Jennings*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.29873260855674744
+91,alvarda01,2018,Dario Álvarez*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,0,0.06466518342494965
+98,hernada01,2018,David Hernández,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.43240296840667725
+99,phelpda01,2019,David Phelps,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.3775631785392761
+103,roberda08,2019,David Robertson,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.8553358316421509
+106,hollade01,2019,Derek Holland*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.613716721534729
+107,pomerdr01,2019,Drew Pomeranz*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.7548858523368835
+125,rodnefe01,2018,Fernando Rodney,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.41509169340133667
+130,liriafr01,2018,Francisco Liriano*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.7087242603302002
+140,hollagr01,2018,Greg Holland,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.5388818383216858
+141,hollagr01,2019,Greg Holland,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.475252628326416
+146,rondohe01,2018,Héctor Rondón,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.5517668724060059
+148,strichu01,2019,Hunter Strickland,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.22549207508563995
+152,garcija02,2018,Jaime García*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.8946985602378845
+153,diekmja01,2019,Jake Diekman*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.1572544276714325
+155,mcgeeja01,2018,Jake McGee*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.43666476011276245
+159,petrija01,2019,Jake Petricka,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,0,0.06339400261640549
+164,hugheja02,2018,Jared Hughes,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.7329486608505249
+181,hellije01,2019,Jeremy Hellickson,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.44130760431289673
+187,chaveje01,2018,Jesse Chavez,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.21169744431972504
+188,chaveje01,2019,Jesse Chavez,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.8340953588485718
+191,familje01,2019,Jeurys Familia,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.8285967111587524
+198,soriajo01,2019,Joakim Soria,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.7306556105613708
+202,benoijo01,2018,Joaquin Benoit,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.17397794127464294
+208,kellyjo05,2019,Joe Kelly,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.6748172044754028
+214,smithjo05,2018,Joe Smith,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.16617415845394135
+242,nicasju01,2018,Juan Nicasio,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.6059572696685791
+246,grimmju01,2018,Justin Grimm,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,0,0.11568359285593033
+248,wilsoju10,2019,Justin Wilson*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.3304583430290222
+251,herreke01,2019,Kelvin Herrera,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.6288382411003113
+253,graveke01,2019,Kendall Graveman,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.41331589221954346
+273,gregelu01,2018,Luke Gregerson,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.41149625182151794
+285,alberma01,2018,Matt Albers,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.7004437446594238
+292,moorema02,2019,Matt Moore*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.34424325823783875
+312,perezol01,2018,Óliver Pérez*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.587644636631012
+313,perezol01,2019,Óliver Pérez*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.45102235674858093
+316,neshepa01,2018,Pat Neshek,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.3260544538497925
+317,vendipa01,2019,Pat Venditte#,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.2615318298339844
+320,moylape01,2018,Peter Moylan,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,0,0.11022809892892838
+350,romose01,2018,Sergio Romo,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.4085734486579895
+351,romose01,2019,Sergio Romo,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.44735872745513916
+354,ohse01,2018,Seunghwan Oh,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.4022034704685211
+358,kellesh01,2019,Shawn Kelley,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.54655921459198
+360,millesh01,2019,Shelby Miller,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,0,0.06696510314941406
+362,cishest01,2018,Steve Cishek,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.6745813488960266
+367,linceti01,2018,Tim Lincecum,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,0,0.04567483067512512
+369,mcfartj01,2018,T.J. McFarland*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,0,0.11149809509515762
+373,koehlto01,2018,Tom Koehler,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,0,0.10202905535697937
+375,hunteto02,2018,Tommy Hunter,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.38541150093078613
+378,barneto01,2018,Tony Barnette,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.2950608730316162
+379,barneto01,2019,Tony Barnette,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.3594469130039215
+382,sippto01,2019,Tony Sipp*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,0,0.08942990750074387
+383,watsoto01,2018,Tony Watson*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.8524255156517029
+386,rosentr01,2019,Trevor Rosenthal,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.6450501680374146
+389,chatwty01,2018,Tyler Chatwood,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.9339556097984314
+394,daviswa01,2018,Wade Davis,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.966331958770752
+399,peralwi01,2018,Wily Peralta,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,0,0.11951008439064026
+403,petityu01,2018,Yusmeiro Petit,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.6529757976531982
+405,rosscza01,2019,Zac Rosscup*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,0,0.14312782883644104
+408,dukeza01,2018,Zach Duke*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.2412511706352234
+409,dukeza01,2019,Zach Duke*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,0,1,0.22070205211639404
+411,brittza01,2019,Zack Britton*,rp,Relief Pitcher,war,2class,xgb,0.45,valid,0.15000000000000002,1,1,0.8580905199050903
+1,loupaa01,2021,Aaron Loup*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.7185558676719666
+7,claudal01,2020,Álex Claudio*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.44555753469467163
+8,claudal01,2021,Álex Claudio*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.24485811591148376
+9,colomal01,2021,Alex Colomé,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.3913573920726776
+15,chafian01,2021,Andrew Chafin*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.5850128531455994
+18,bassan01,2021,Anthony Bass,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.7352533340454102
+20,swarzan01,2020,Anthony Swarzak,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.41638505458831787
+22,bradlar01,2021,Archie Bradley,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.38758474588394165
+26,treinbl01,2020,Blake Treinen,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.9365216493606567
+27,treinbl01,2021,Blake Treinen,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.6928178668022156
+34,brachbr01,2020,Brad Brach,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.3775700330734253
+35,handbr01,2021,Brad Hand*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.5500122308731079
+39,kintzbr01,2020,Brandon Kintzler,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.46280330419540405
+43,workmbr01,2021,Brandon Workman,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,0,0.10414519160985947
+66,roech01,2021,Chaz Roe,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,0,0.13957177102565765
+72,devench02,2021,Chris Devenski,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,0,0.037996500730514526
+73,martich02,2020,Chris Martin,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.5005776286125183
+79,mchugco01,2020,Collin McHugh,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.5358181595802307
+80,mchugco01,2021,Collin McHugh,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.40017935633659363
+85,stammcr01,2020,Craig Stammen,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.5236814022064209
+88,winklda01,2020,Dan Winkler,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.354000985622406
+90,hudsoda01,2020,Daniel Hudson,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.639732301235199
+93,odayda01,2020,Darren O'Day,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.7438430786132812
+94,odayda01,2021,Darren O'Day,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.556838870048523
+100,phelpda01,2020,David Phelps,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.2734362781047821
+101,phelpda01,2021,David Phelps,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,0,0.09889860451221466
+104,betande01,2020,Dellin Betances,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.8705044388771057
+108,pomerdr01,2020,Drew Pomeranz*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.958515465259552
+142,hollagr01,2021,Greg Holland,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.2510000169277191
+144,robleha01,2021,Hansel Robles,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.23267455399036407
+147,rondohe01,2020,Héctor Rondón,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.589067816734314
+154,diekmja01,2020,Jake Diekman*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.31610822677612305
+156,mcgeeja01,2020,Jake McGee*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.2617781162261963
+157,mcgeeja01,2021,Jake McGee*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.423952579498291
+160,hoytja01,2020,James Hoyt,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.33539319038391113
+165,hugheja02,2020,Jared Hughes,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.63084477186203
+182,jeffrje01,2020,Jeremy Jeffress,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.2783161401748657
+190,hahnje01,2020,Jesse Hahn,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,0,0.030413007363677025
+194,hergeji01,2021,Jimmy Herget,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,0,0.054469868540763855
+195,nelsoji02,2020,Jimmy Nelson,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.4938797056674957
+199,soriajo01,2021,Joakim Soria,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.6176062226295471
+215,smithjo05,2020,Joe Smith,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.8242197036743164
+219,rodrijo06,2020,Joely Rodríguez*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,0,0.07531647384166718
+221,brebbjo01,2021,John Brebbia,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.4185343086719513
+228,holdejo02,2021,Jonathan Holder,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.32623404264450073
+230,alvarjo02,2021,José Álvarez*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,0,0.07559067010879517
+234,osichjo01,2020,Josh Osich*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,0,0.024147208780050278
+236,tomlijo01,2021,Josh Tomlin,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,0,0.046309515833854675
+244,guerrju02,2020,Junior Guerra,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.3805648386478424
+249,wilsoju10,2021,Justin Wilson*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.4715898334980011
+252,gileske01,2021,Ken Giles,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.3626537621021271
+254,graveke01,2020,Kendall Graveman,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,0,0.08109737187623978
+256,kelake01,2021,Keone Kela,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.45947909355163574
+259,middlke01,2021,Keynan Middleton,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.44732022285461426
+260,yateski01,2021,Kirby Yates,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.7041676044464111
+267,hendrli01,2021,Liam Hendriks,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.9766232967376709
+282,melanma01,2021,Mark Melancon,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.20423495769500732
+286,andrima01,2021,Matt Andriese,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.32426029443740845
+293,moorema02,2021,Matt Moore*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.6635876893997192
+295,wislema01,2021,Matt Wisler,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,0,0.10882437974214554
+308,drakeol01,2021,Oliver Drake,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,0,0.08348439633846283
+318,baezpe01,2021,Pedro Báez,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.6395333409309387
+319,stroppe01,2020,Pedro Strop,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.22238996624946594
+322,johnspi01,2020,Pierce Johnson,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.28012460470199585
+331,detwiro01,2021,Ross Detwiler*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,0,0.10326638072729111
+339,teperry01,2020,Ryan Tepera,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.1602824479341507
+340,teperry01,2021,Ryan Tepera,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,0,0.11896329373121262
+342,stanery01,2021,Ryne Stanek,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,0,0.10681222379207611
+347,doolise01,2021,Sean Doolittle*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.4057638347148895
+352,romose01,2020,Sergio Romo,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.5774715542793274
+353,romose01,2021,Sergio Romo,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.4074935019016266
+355,greensh02,2021,Shane Greene,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.27439767122268677
+363,cishest01,2020,Steve Cishek,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.5835105180740356
+364,cishest01,2021,Steve Cishek,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.19099421799182892
+376,hunteto02,2020,Tommy Hunter,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.4625604748725891
+377,kahnlto01,2021,Tommy Kahnle,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.7294886112213135
+384,watsoto01,2021,Tony Watson*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.22163349390029907
+385,maytr01,2021,Trevor May,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.5183072686195374
+387,rosentr01,2021,Trevor Rosenthal,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.5699347853660583
+388,willitr01,2021,Trevor Williams,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.6540778279304504
+390,chatwty01,2021,Tyler Chatwood,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.371695876121521
+392,clippty01,2020,Tyler Clippard,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.5221405029296875
+393,clippty01,2021,Tyler Clippard,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.15381312370300293
+397,harriwi10,2020,Will Harris,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.6810746192932129
+398,smithwi04,2020,Will Smith*,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.9795792102813721
+400,garciyi01,2020,Yimi García,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,0,0.09337522834539413
+401,hiranyo01,2020,Yoshihisa Hirano,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,0,1,0.16285894811153412
+404,petityu01,2021,Yusmeiro Petit,rp,Relief Pitcher,war,2class,xgb,0.45,test,0.15000000000000002,1,1,0.8036181330680847

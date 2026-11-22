@@ -1,0 +1,7 @@
+Role,Task,Composite model,WAR-only model,Composite Accuracy,WAR-only Accuracy,Accuracy Difference,Accuracy Difference Raw,CI Low 95%,CI High 95%
+Hitter,2class,logistic,logistic,0.783,0.65,0.133,0.1333333333333333,0.017,0.242
+Starting Pitcher,2class,logistic,logistic,0.723,0.646,0.07699999999999996,0.07692307692307687,-0.015,0.169
+Relief Pitcher,2class,rf,rf,0.898,0.852,0.04600000000000004,0.045454545454545414,-0.011,0.114
+Hitter,3class,rf,logistic,0.483,0.458,0.024999999999999967,0.024999999999999967,-0.092,0.142
+Starting Pitcher,3class,rf,rf,0.385,0.369,0.016000000000000014,0.015384615384615385,-0.138,0.169
+Relief Pitcher,3class,rf,logistic,0.42,0.5,-0.08000000000000002,-0.07954545454545459,-0.216,0.057

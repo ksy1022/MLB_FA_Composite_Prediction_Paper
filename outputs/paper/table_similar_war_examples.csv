@@ -1,0 +1,4 @@
+﻿Role,Subset,WAR_Tolerance,Player_A,FA_Year_A,WAR_A,PA_A,Composite_A,WAR_2class_A,Composite_2class_A,Player_B,FA_Year_B,WAR_B,PA_B,Composite_B,WAR_2class_B,Composite_2class_B,Absolute_WAR_Difference,Absolute_PA_Difference,IP_A,IP_B,Absolute_IP_Difference
+Hitter,Test,0.25,César Hernández#,2021,1.0,1254.0,0.3936807228560405,1,1,Francisco Cervelli,2020,0.8,62.0,-0.7340725205244077,1,0,0.19999999999999996,1192.0,,,
+Starting Pitcher,Test,0.25,Taijuan Walker,2021,5.800000000000001,,0.9711215653412101,1,1,Tyler Anderson*,2020,6.0,,0.7755211434331543,1,0,0.1999999999999993,,488.3,404.4,83.90000000000003
+Relief Pitcher,Test,0.25,Trevor Williams,2021,1.5,,1.061507071724158,0,1,Tommy Kahnle,2021,1.4,,-0.15941657925516503,0,0,0.10000000000000009,,324.29999999999995,52.400000000000006,271.9

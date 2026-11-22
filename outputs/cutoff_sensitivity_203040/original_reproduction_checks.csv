@@ -1,0 +1,7 @@
+﻿role,outcome,model,n,labels_equal,predictions_equal,max_probability_difference
+hitter,composite,logistic,120,True,True,0.9995117978495569
+hitter,war,logistic,120,True,True,0.9897660310850159
+sp,composite,logistic,65,True,True,0.999464505553479
+sp,war,logistic,65,True,True,0.9966366812026596
+rp,composite,rf,88,True,True,0.9565168631125286
+rp,war,rf,88,True,True,0.9249572728718849

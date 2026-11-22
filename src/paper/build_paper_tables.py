@@ -1,0 +1,129 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+import numpy as np
+import pandas as pd
+
+ROOT = Path(__file__).resolve().parents[2]
+METRICS = ROOT / 'outputs' / 'temporal_accuracy_final' / 'temporal_metrics.csv'
+PREDICTIONS = ROOT / 'outputs' / 'temporal_accuracy_final' / 'temporal_predictions.csv'
+SPEC_PATH = ROOT / 'config' / 'paper_model_spec.json'
+OUT = ROOT / 'outputs' / 'paper'
+
+ROLE_LABEL = {'hitter': 'Hitter', 'sp': 'Starting Pitcher', 'rp': 'Relief Pitcher'}
+
+
+def load_spec():
+    return json.loads(SPEC_PATH.read_text(encoding='utf-8'))
+
+
+def selected_row(metrics, role, outcome, task, model):
+    q = metrics[
+        (metrics.role == role) & (metrics.outcome == outcome) &
+        (metrics.task == task) & (metrics.model == model) &
+        (metrics.split == 'test')
+    ]
+    if len(q) != 1:
+        raise ValueError(f'Expected one metric row: {role=} {outcome=} {task=} {model=}; got {len(q)}')
+    return q.iloc[0]
+
+
+def paired_bootstrap_ci(pred, role, task, comp_model, war_model, n_boot=10000, seed=42):
+    c = pred[(pred.role == role) & (pred.outcome == 'composite') &
+             (pred.task == task) & (pred.model == comp_model) & (pred.split == 'test')].copy()
+    w = pred[(pred.role == role) & (pred.outcome == 'war') &
+             (pred.task == task) & (pred.model == war_model) & (pred.split == 'test')].copy()
+    keys = ['player_key', 'fa_year']
+    c = c.sort_values(keys).reset_index(drop=True)
+    w = w.sort_values(keys).reset_index(drop=True)
+    z = c[keys + ['y_true', 'y_pred']].merge(
+        w[keys + ['y_true', 'y_pred']], on=keys, suffixes=('_composite', '_war'), validate='one_to_one'
+    ).sort_values(keys).reset_index(drop=True)
+    c_ok = (z.y_true_composite.to_numpy() == z.y_pred_composite.to_numpy()).astype(float)
+    w_ok = (z.y_true_war.to_numpy() == z.y_pred_war.to_numpy()).astype(float)
+    rs = np.random.RandomState(seed)  # reproduces manuscript percentile CIs
+    n = len(z)
+    diffs = np.empty(n_boot, dtype=float)
+    for i in range(n_boot):
+        idx = rs.choice(n, n, replace=True)
+        diffs[i] = c_ok[idx].mean() - w_ok[idx].mean()
+    return float(np.quantile(diffs, .025)), float(np.quantile(diffs, .975))
+
+
+def main():
+    OUT.mkdir(parents=True, exist_ok=True)
+    metrics = pd.read_csv(METRICS)
+    pred = pd.read_csv(PREDICTIONS)
+    spec = load_spec()
+
+    # Table 4: selected three-class Composite models
+    rows = []
+    for role in ['hitter', 'sp', 'rp']:
+        model = spec[role]['3class']['composite']
+        r = selected_row(metrics, role, 'composite', '3class', model)
+        rows.append({
+            'Role': ROLE_LABEL[role], 'Selected model': model,
+            'Accuracy': r.accuracy, 'Macro-F1': r.f1_macro,
+            'High Recall': r.recall_high, 'High F1': r.f1_high,
+        })
+    pd.DataFrame(rows).to_csv(OUT/'table4_three_class_composite.csv', index=False)
+
+    # Table 5: selected binary Composite models
+    rows = []
+    for role in ['hitter', 'sp', 'rp']:
+        model = spec[role]['2class']['composite']
+        r = selected_row(metrics, role, 'composite', '2class', model)
+        rows.append({
+            'Role': ROLE_LABEL[role], 'Selected model': model,
+            'Threshold': r.threshold, 'Accuracy': r.accuracy,
+            'Precision': r.precision, 'Recall': r.recall,
+            'F1': r.f1, 'PR-AUC': r.pr_auc,
+        })
+    pd.DataFrame(rows).to_csv(OUT/'table5_binary_composite.csv', index=False)
+
+    # Table 6: Composite vs WAR-only + paired bootstrap CI
+    rows = []
+    for task in ['2class', '3class']:
+        for role in ['hitter', 'sp', 'rp']:
+            cm = spec[role][task]['composite']
+            wm = spec[role][task]['war']
+            cr = selected_row(metrics, role, 'composite', task, cm)
+            wr = selected_row(metrics, role, 'war', task, wm)
+            lo, hi = paired_bootstrap_ci(pred, role, task, cm, wm)
+            rows.append({
+                'Role': ROLE_LABEL[role], 'Task': task,
+                'Composite model': cm, 'WAR-only model': wm,
+                'Composite Accuracy': round(float(cr.accuracy), 3),
+                'WAR-only Accuracy': round(float(wr.accuracy), 3),
+                # The manuscript reports the difference from the displayed 3-decimal accuracies.
+                'Accuracy Difference': round(float(cr.accuracy), 3) - round(float(wr.accuracy), 3),
+                'Accuracy Difference Raw': float(cr.accuracy - wr.accuracy),
+                'CI Low 95%': round(lo, 3), 'CI High 95%': round(hi, 3),
+            })
+    pd.DataFrame(rows).to_csv(OUT/'table6_composite_vs_war_bootstrap.csv', index=False)
+
+    # Table 7: AAV association with WAR and Composite
+    corr_path = ROOT / "outputs" / "aav_external_validation" / "01_spearman_aav_association.csv"
+    boot_path = ROOT / "outputs" / "aav_external_validation" / "02_bootstrap_delta_spearman.csv"
+    if corr_path.exists() and boot_path.exists():
+        corr = pd.read_csv(corr_path)
+        boot = pd.read_csv(boot_path)
+        table7 = []
+        for role_name in ["Hitter", "Starting Pitcher", "Relief Pitcher"]:
+            c = corr[corr["role"].eq(role_name)].set_index("metric")
+            b = boot[boot["role"].eq(role_name)].iloc[0]
+            table7.append({
+                "Role": role_name,
+                "AAV-WAR rho": round(float(c.loc["WAR", "spearman_rho_with_AAV"]), 3),
+                "AAV-Composite rho": round(float(c.loc["Composite", "spearman_rho_with_AAV"]), 3),
+                "Difference": round(float(b["delta_rho_Composite_minus_WAR"]), 3),
+                "CI Low 95%": round(float(b["ci_low_2.5"]), 3),
+                "CI High 95%": round(float(b["ci_high_97.5"]), 3),
+            })
+        pd.DataFrame(table7).to_csv(OUT / "table7_aav_association.csv", index=False)
+
+    print('Saved paper tables to', OUT)
+
+if __name__ == '__main__':
+    main()

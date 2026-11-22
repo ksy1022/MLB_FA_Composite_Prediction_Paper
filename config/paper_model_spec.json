@@ -1,0 +1,32 @@
+{
+  "hitter": {
+    "2class": {
+      "composite": "logistic",
+      "war": "logistic"
+    },
+    "3class": {
+      "composite": "rf",
+      "war": "logistic"
+    }
+  },
+  "sp": {
+    "2class": {
+      "composite": "logistic",
+      "war": "logistic"
+    },
+    "3class": {
+      "composite": "rf",
+      "war": "rf"
+    }
+  },
+  "rp": {
+    "2class": {
+      "composite": "rf",
+      "war": "rf"
+    },
+    "3class": {
+      "composite": "rf",
+      "war": "logistic"
+    }
+  }
+}

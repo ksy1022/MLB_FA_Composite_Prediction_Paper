@@ -1,0 +1,58 @@
+Composite vs WAR additional evidence
+========================================================================
+
+1) Reclassification summary
+            Role Subset   Task   N  Agreement_N  Agreement_Rate  Reclassified_N  Reclassified_Rate  Composite_Up_N  Composite_Down_N
+          Hitter    All 2class 534          470        0.880150              64           0.119850              22                42
+          Hitter    All 3class 534          378        0.707865             156           0.292135              62                94
+          Hitter   Test 2class 120          103        0.858333              17           0.141667               2                15
+          Hitter   Test 3class 120           74        0.616667              46           0.383333              15                31
+Starting Pitcher    All 2class 216          200        0.925926              16           0.074074               4                12
+Starting Pitcher    All 3class 216          154        0.712963              62           0.287037              19                43
+Starting Pitcher   Test 2class  65           61        0.938462               4           0.061538               0                 4
+Starting Pitcher   Test 3class  65           44        0.676923              21           0.323077               5                16
+  Relief Pitcher    All 2class 412          376        0.912621              36           0.087379              11                25
+  Relief Pitcher    All 3class 412          284        0.689320             128           0.310680              39                89
+  Relief Pitcher   Test 2class  88           81        0.920455               7           0.079545               1                 6
+  Relief Pitcher   Test 3class  88           59        0.670455              29           0.329545               2                27
+
+2) Direction of reclassification
+            Role Subset   Task              Direction  N  Mean_WAR  Median_WAR     Mean_PA  Median_PA  Mean_z_Utilization  Median_z_Utilization    Mean_IP  Median_IP
+          Hitter    All 2class Composite higher class 22 -0.063636        0.25 1201.272727     1199.5            0.823631              0.820373        NaN        NaN
+          Hitter    All 2class  Composite lower class 42  1.271429        1.15  455.976190      450.0           -0.546275             -0.557260        NaN        NaN
+          Hitter    All 3class Composite higher class 62 -0.574194       -0.50  899.661290      864.0            0.269249              0.203701        NaN        NaN
+          Hitter    All 3class  Composite lower class 94  0.751064        0.20  289.010638      211.5           -0.853170             -0.995640        NaN        NaN
+          Hitter   Test 2class Composite higher class  2  0.400000        0.40 1088.000000     1088.0            0.615428              0.615428        NaN        NaN
+          Hitter   Test 2class  Composite lower class 15  1.273333        1.10  401.066667      409.0           -0.647203             -0.632621        NaN        NaN
+          Hitter   Test 3class Composite higher class 15 -0.800000       -0.50  766.666667      789.0            0.024795              0.065845        NaN        NaN
+          Hitter   Test 3class  Composite lower class 31  0.600000        0.10  258.483871      141.0           -0.909280             -1.125224        NaN        NaN
+Starting Pitcher    All 2class Composite higher class  4  4.300000        4.25         NaN        NaN            1.502658              1.501476 568.175000     567.95
+Starting Pitcher    All 2class  Composite lower class 12  6.000000        6.05         NaN        NaN            0.168435              0.276898 314.258333     334.90
+Starting Pitcher    All 3class Composite higher class 19  0.215789       -0.30         NaN        NaN            0.577183              0.620021 392.047368     400.20
+Starting Pitcher    All 3class  Composite lower class 43  1.274419        0.30         NaN        NaN           -0.852016             -0.920094 120.055814     107.10
+Starting Pitcher   Test 2class  Composite lower class  4  5.875000        5.75         NaN        NaN            0.324714              0.507311 344.000000     378.75
+Starting Pitcher   Test 3class Composite higher class  5  0.560000       -0.30         NaN        NaN            0.351723              0.484453 349.140000     374.40
+Starting Pitcher   Test 3class  Composite lower class 16  1.475000        0.50         NaN        NaN           -0.759567             -0.882524 137.650000     114.25
+  Relief Pitcher    All 2class Composite higher class 11  0.836364        1.00         NaN        NaN            1.930154              1.915222 341.300000     339.60
+  Relief Pitcher    All 2class  Composite lower class 25  2.448000        2.40         NaN        NaN           -0.033888              0.022464 117.684000     124.10
+  Relief Pitcher    All 3class Composite higher class 39 -0.389744       -0.40         NaN        NaN            0.333138             -0.081176 159.471795     112.30
+  Relief Pitcher    All 3class  Composite lower class 89  0.631461        0.20         NaN        NaN           -0.653706             -0.802269  47.114607      30.20
+  Relief Pitcher   Test 2class Composite higher class  1  1.500000        1.50         NaN        NaN            1.780841              1.780841 324.300000     324.30
+  Relief Pitcher   Test 2class  Composite lower class  6  2.566667        2.55         NaN        NaN           -0.057023             -0.042970 115.050000     116.65
+  Relief Pitcher   Test 3class Composite higher class  2 -0.600000       -0.60         NaN        NaN           -0.284066             -0.284066  89.200000      89.20
+  Relief Pitcher   Test 3class  Composite lower class 27  0.803704        1.10         NaN        NaN           -0.586660             -0.650321  54.748148      47.50
+
+3) Similar-WAR examples
+            Role Subset  WAR_Tolerance         Player_A  FA_Year_A  WAR_A   PA_A  Composite_A  WAR_2class_A  Composite_2class_A           Player_B  FA_Year_B  WAR_B  PA_B  Composite_B  WAR_2class_B  Composite_2class_B  Absolute_WAR_Difference  Absolute_PA_Difference  IP_A  IP_B  Absolute_IP_Difference
+          Hitter   Test           0.25 César Hernández#       2021    1.0 1254.0     0.393681             1                   1 Francisco Cervelli       2020    0.8  62.0    -0.734073             1                   0                      0.2                  1192.0   NaN   NaN                     NaN
+Starting Pitcher   Test           0.25   Taijuan Walker       2021    5.8    NaN     0.971122             1                   1    Tyler Anderson*       2020    6.0   NaN     0.775521             1                   0                      0.2                     NaN 488.3 404.4                    83.9
+  Relief Pitcher   Test           0.25  Trevor Williams       2021    1.5    NaN     1.061507             0                   1       Tommy Kahnle       2021    1.4   NaN    -0.159417             0                   0                      0.1                     NaN 324.3  52.4                   271.9
+
+4) Paired bootstrap uncertainty
+            Role   Task Composite_Model WAR_Model  N_Test  Composite_Accuracy  WAR_Only_Accuracy  Observed_Difference  Bootstrap_Mean_Difference  Bootstrap_SE   CI_2.5%  CI_97.5%  Bootstrap_Repetitions
+          Hitter 2class        logistic  logistic     120            0.783333           0.650000             0.133333                   0.133597      0.056344  0.025000  0.241667                  10000
+          Hitter 3class              rf  logistic     120            0.483333           0.458333             0.025000                   0.025898      0.059902 -0.091667  0.141667                  10000
+Starting Pitcher 2class        logistic  logistic      65            0.723077           0.646154             0.076923                   0.076705      0.045120 -0.015385  0.169231                  10000
+Starting Pitcher 3class              rf        rf      65            0.384615           0.369231             0.015385                   0.014166      0.076584 -0.138462  0.169231                  10000
+  Relief Pitcher 2class              rf        rf      88            0.897727           0.852273             0.045455                   0.045565      0.031827 -0.011364  0.113636                  10000
+  Relief Pitcher 3class              rf  logistic      88            0.420455           0.500000            -0.079545                  -0.079428      0.070991 -0.215909  0.056818                  10000

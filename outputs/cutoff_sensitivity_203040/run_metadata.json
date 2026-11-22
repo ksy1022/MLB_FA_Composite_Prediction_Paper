@@ -1,0 +1,54 @@
+{
+  "python": "3.11.9",
+  "numpy": "2.4.2",
+  "pandas": "3.0.0",
+  "sklearn": "1.8.0",
+  "xgboost": "3.2.0",
+  "bootstrap": 10000,
+  "seed": 42,
+  "cutoffs": [
+    0.2,
+    0.3,
+    0.4
+  ],
+  "data_sha256": {
+    "hitter_cohort_v2.csv": "8909b3091f56162be07b05c10ed97eb3204247b344c68b8a66d290dbdcfb4f3b",
+    "pitcher_cohort_v2.csv": "ed4023a44bb52e15bcc26dcd0884ac29d00dd75e7300947ad1d88fe0cc890fc4",
+    "rp_cohort_v2.csv": "c1467b28ba1de4b2f2f0dc944e66bdf8ba514074f5a157921ce0c51033368d5b",
+    "sp_cohort_v2.csv": "0ecd9f921f8173fefbe0959aa12f39f5308fc6453486792eaf7f5af84aa45e1a"
+  },
+  "score": "zWAR + zPA/IP (divide cuts by two for 0.5/0.5 notation)",
+  "primary_models": {
+    "hitter": {
+      "2class": {
+        "composite": "logistic",
+        "war": "logistic"
+      },
+      "3class": {
+        "composite": "rf",
+        "war": "logistic"
+      }
+    },
+    "sp": {
+      "2class": {
+        "composite": "logistic",
+        "war": "logistic"
+      },
+      "3class": {
+        "composite": "rf",
+        "war": "rf"
+      }
+    },
+    "rp": {
+      "2class": {
+        "composite": "rf",
+        "war": "rf"
+      },
+      "3class": {
+        "composite": "rf",
+        "war": "logistic"
+      }
+    }
+  },
+  "limitation": "Post-hoc cutoff sensitivity analysis using previously analyzed test data. The analysis does not establish an optimal cutoff or external validity. Bootstrap intervals are conditional on fitted models and do not include model refitting."
+}

@@ -1,0 +1,50 @@
+{
+  "hitter": {
+    "composite": {
+      "top_ratio": 0.3333333333333333,
+      "outcome_cut": 0.44301603863716915,
+      "model": "rf",
+      "probability_threshold": 0.5800000000000002,
+      "selection_metric": "validation_high_class_f1"
+    },
+    "war": {
+      "top_ratio": 0.3333333333333333,
+      "outcome_cut": 1.3000000000000005,
+      "model": "rf",
+      "probability_threshold": 0.43000000000000005,
+      "selection_metric": "validation_high_class_f1"
+    }
+  },
+  "sp": {
+    "composite": {
+      "top_ratio": 0.3333333333333333,
+      "outcome_cut": 0.46358264328813326,
+      "model": "logistic",
+      "probability_threshold": 0.5100000000000001,
+      "selection_metric": "validation_high_class_f1"
+    },
+    "war": {
+      "top_ratio": 0.3333333333333333,
+      "outcome_cut": 2.5,
+      "model": "logistic",
+      "probability_threshold": 0.6800000000000002,
+      "selection_metric": "validation_high_class_f1"
+    }
+  },
+  "rp": {
+    "composite": {
+      "top_ratio": 0.3333333333333333,
+      "outcome_cut": 0.41162400687450607,
+      "model": "xgb",
+      "probability_threshold": 0.8600000000000002,
+      "selection_metric": "validation_high_class_f1"
+    },
+    "war": {
+      "top_ratio": 0.3333333333333333,
+      "outcome_cut": 1.0,
+      "model": "logistic",
+      "probability_threshold": 0.8300000000000002,
+      "selection_metric": "validation_high_class_f1"
+    }
+  }
+}

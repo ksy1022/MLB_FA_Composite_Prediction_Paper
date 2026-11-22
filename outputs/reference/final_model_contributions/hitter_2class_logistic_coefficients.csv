@@ -1,0 +1,14 @@
+﻿role,task,model,feature,value,abs_value
+hitter,2class,logistic,AAV,0.681418841248379,0.681418841248379
+hitter,2class,logistic,Pos_group_DH,-0.6368839866792774,0.6368839866792774
+hitter,2class,logistic,pre_PA_3y,0.6052713649864061,0.6052713649864061
+hitter,2class,logistic,age_at_contract,-0.5649021704806074,0.5649021704806074
+hitter,2class,logistic,Pos_group_C,0.5512313897511861,0.5512313897511861
+hitter,2class,logistic,Yrs,0.5195944637820251,0.5195944637820251
+hitter,2class,logistic,pre_WAR_3y_avg,0.5125909877898959,0.5125909877898959
+hitter,2class,logistic,pre_OPSplus_3y_avg,-0.2812978643703,0.2812978643703
+hitter,2class,logistic,pre_BB_rate_3y_avg,0.25844862364680665,0.25844862364680665
+hitter,2class,logistic,Pos_group_OF,0.17876171277206265,0.17876171277206265
+hitter,2class,logistic,pre_K_rate_3y_avg,-0.16972557020586246,0.16972557020586246
+hitter,2class,logistic,pre_WAR_3y_std,-0.1600911468364767,0.1600911468364767
+hitter,2class,logistic,Pos_group_IF,-0.1412319205050205,0.1412319205050205

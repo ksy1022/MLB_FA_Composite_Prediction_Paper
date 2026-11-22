@@ -1,0 +1,19 @@
+﻿role,parameter,value
+Hitter,war_median,0.3
+Hitter,war_mean,1.4128048780487805
+Hitter,war_sd,3.0994522625427035
+Hitter,playtime_median,636.0
+Hitter,playtime_mean,753.1768292682926
+Hitter,playtime_sd,544.0490409653456
+Starting Pitcher,war_median,0.7
+Starting Pitcher,war_mean,2.3391304347826085
+Starting Pitcher,war_sd,4.0275722680407755
+Starting Pitcher,playtime_median,259.2
+Starting Pitcher,playtime_mean,282.20347826086953
+Starting Pitcher,playtime_sd,190.31047490211074
+Relief Pitcher,war_median,0.2
+Relief Pitcher,war_mean,0.8630705394190872
+Relief Pitcher,war_sd,1.861424662753553
+Relief Pitcher,playtime_median,99.2
+Relief Pitcher,playtime_mean,121.5423236514523
+Relief Pitcher,playtime_sd,113.85501132097524

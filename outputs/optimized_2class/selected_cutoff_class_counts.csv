@@ -1,0 +1,19 @@
+﻿role,role_label,outcome,top_ratio,split,n,n_players,high_count,high_rate
+hitter,Hitter,composite,0.2,test,120,103,20,0.16666666666666666
+hitter,Hitter,war,0.2,test,120,103,20,0.16666666666666666
+hitter,Hitter,composite,0.2,train,328,222,66,0.20121951219512196
+hitter,Hitter,war,0.2,train,328,222,66,0.20121951219512196
+hitter,Hitter,composite,0.2,valid,86,81,16,0.18604651162790697
+hitter,Hitter,war,0.2,valid,86,81,21,0.2441860465116279
+sp,Starting Pitcher,composite,0.4,test,65,54,25,0.38461538461538464
+sp,Starting Pitcher,war,0.4,test,65,54,28,0.4307692307692308
+sp,Starting Pitcher,composite,0.4,train,115,77,46,0.4
+sp,Starting Pitcher,war,0.4,train,115,77,46,0.4
+sp,Starting Pitcher,composite,0.4,valid,36,31,14,0.3888888888888889
+sp,Starting Pitcher,war,0.4,valid,36,31,19,0.5277777777777778
+rp,Relief Pitcher,composite,0.45,test,88,78,31,0.3522727272727273
+rp,Relief Pitcher,war,0.45,test,88,78,46,0.5227272727272727
+rp,Relief Pitcher,composite,0.45,train,241,175,109,0.45228215767634855
+rp,Relief Pitcher,war,0.45,train,241,175,109,0.45228215767634855
+rp,Relief Pitcher,composite,0.45,valid,83,77,32,0.3855421686746988
+rp,Relief Pitcher,war,0.45,valid,83,77,41,0.4939759036144578

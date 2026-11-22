@@ -1,0 +1,7 @@
+﻿role,split_a,split_b,n_shared_players
+hitter,train,valid,24
+hitter,train,test,17
+sp,train,valid,12
+sp,train,test,9
+rp,train,valid,31
+rp,train,test,13

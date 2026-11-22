@@ -1,0 +1,44 @@
+{
+  "hitter": {
+    "war_median": 0.3,
+    "war_mean": 1.4128048780487805,
+    "war_std": 3.0994522625427035,
+    "playtime_median": 636.0,
+    "playtime_mean": 753.1768292682926,
+    "playtime_std": 544.0490409653456,
+    "composite_2class_cut": -0.0567766838276506,
+    "composite_3class_low_cut": -1.279604251114757,
+    "composite_3class_high_cut": 0.4430160386371685,
+    "war_2class_cut": 0.7999999999999999,
+    "war_3class_low_cut": -0.2,
+    "war_3class_high_cut": 1.2999999999999947
+  },
+  "sp": {
+    "war_median": 0.7,
+    "war_mean": 2.3391304347826085,
+    "war_std": 4.0275722680407755,
+    "playtime_median": 259.2,
+    "playtime_mean": 282.20347826086953,
+    "playtime_std": 190.31047490211074,
+    "composite_2class_cut": 1.603794976360489,
+    "composite_3class_low_cut": -1.1239838519797836,
+    "composite_3class_high_cut": 0.4635826432881331,
+    "war_2class_cut": 4.740000000000001,
+    "war_3class_low_cut": 0.0,
+    "war_3class_high_cut": 2.4999999999999987
+  },
+  "rp": {
+    "war_median": 0.2,
+    "war_mean": 0.8630705394190872,
+    "war_std": 1.861424662753553,
+    "playtime_median": 99.2,
+    "playtime_mean": 121.5423236514523,
+    "playtime_std": 113.85501132097524,
+    "composite_2class_cut": 1.2057676981181618,
+    "composite_3class_low_cut": -1.1597999461643935,
+    "composite_3class_high_cut": 0.41162400687450507,
+    "war_2class_cut": 2.1,
+    "war_3class_low_cut": -0.1,
+    "war_3class_high_cut": 1.0
+  }
+}
