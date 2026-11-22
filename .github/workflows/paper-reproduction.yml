@@ -1,0 +1,68 @@
+name: Paper reproduction (clean environment)
+
+on:
+  push:
+    branches:
+      - refactor/paper-only
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    name: Fresh checkout / Python 3.11 / full pipeline
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install exact dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Run full reproduction from committed data
+        shell: bash
+        run: |
+          set -o pipefail
+          python run_all.py 2>&1 | tee reproduction.log
+
+      - name: Check reported validation results
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          log = Path("reproduction.log").read_text(encoding="utf-8")
+          required = (
+              "All 33 conditions: metric/label checks PASS",
+              "Reproduction validation: PASS",
+              "Passed: 217, Failed: 0",
+              "Paper reproduction pipeline completed.",
+          )
+          missing = [line for line in required if line not in log]
+          if missing:
+              raise SystemExit("Missing expected validation messages: " + str(missing))
+          report = Path("outputs/paper/REPRODUCTION_VALIDATION.md")
+          if not report.is_file():
+              raise SystemExit("Reproduction report not found")
+          print("Clean environment reproduction: PASS")
+          PY
+
+      - name: Upload validation report and console log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-reproduction-report
+          path: |
+            reproduction.log
+            outputs/paper/REPRODUCTION_VALIDATION.md
+          if-no-files-found: warn
